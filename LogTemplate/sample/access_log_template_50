@@ -1,0 +1,46 @@
+[
+    {
+        "id": "0005000000",
+        "template": "GET twiki pub TWiki TWikiLogos twikiRobot46x50.gif HTTP 1.1"
+    },
+    {
+        "id": "0005000001",
+        "template": "GET cgi-bin mailgraph.cgi * HTTP 1.1"
+    },
+    {
+        "id": "0005000002",
+        "template": "GET twiki bin rdiff TWiki * HTTP 1.1"
+    },
+    {
+        "id": "0005000003",
+        "template": "GET twiki bin view TWiki * HTTP 1.1"
+    },
+    {
+        "id": "0005000004",
+        "template": "GET twiki bin view Main * HTTP 1.0"
+    },
+    {
+        "id": "0005000005",
+        "template": "GET twiki bin view Main * HTTP 1.1"
+    },
+    {
+        "id": "0005000006",
+        "template": "GET twiki bin edit Main * HTTP 1.1"
+    },
+    {
+        "id": "0005000007",
+        "template": "GET dccstats * HTTP 1.1"
+    },
+    {
+        "id": "0005000008",
+        "template": "GET dccstats * HTTP 1.0"
+    },
+    {
+        "id": "0005000009",
+        "template": "GET icons * HTTP 1.1"
+    },
+    {
+        "id": "0005000010",
+        "template": "GET * HTTP 1.1"
+    }
+]
