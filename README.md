@@ -1,12 +1,13 @@
 logminer
 =======
-A set of tools for log analytics, from data processing to advanced modeling. Tools are organized in folders with sample data to play with. Brief instructions are documented here.
+A set of tools for log analytics, from data processing to advanced modeling. Tools are organized in folders with sample data to play with. Brief instructions are documented here. For Chinese description of this project, please check out my [blog](http://blog.csdn.net/cameling_yang).
 
 ###LogTemplate
 The first step to do any analytics against semi-structured logs is getting **templates** to handle them. Templates could be in many forms. The most popular form is a regular expression. With templates, free-text log messages become structured and are easy to consumed by analytics algorithms.
 
 This tool using clustering techniques to mine templates from history logs. Here's the usage:
 ```
+$ python template.py -h
 usage: template.py [-h] [-s SUPPORT] [-f LOGFILE] [-p PEELER]
 
 Clustering based log template miner.
@@ -27,4 +28,7 @@ For example, the sampled peeler is for a typical access log, to analyze visited 
 * *outer_delimiter*, *message_start* and *message_end* locate the message you'd like to analyze. Delimiters are designated following the regular expression fashion. Usually a whitespace (" ") will do the trick. Start and end positions follow the Python list fashion. If the message's end position is EOF (End of Line), just use a blank string ("").
 * *inner_delimiter* tells the tool how to analyze the message. In this case, as URL is delimited by "/" so we add it in.
 
-The exampled input log file and output templates with support set to 50 are in the sample folder.
+The exampled input log file and output templates with support set to 50 are in the sample folder, using:
+```
+python template.py -s 50 -f sample/access_log -p peeler/access_log
+```
