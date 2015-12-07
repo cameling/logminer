@@ -3,7 +3,7 @@ import json
 import re
 import sys
 from collections import defaultdict
-from LogTemplate.stopwords import stopwords, punct
+from stopwords import stpwd, punct
 
 def parse_args():
     argument_parse = argparse.ArgumentParser(description = "Clustering based log template miner.")
@@ -53,7 +53,7 @@ def evaluate_template(template):
         return False
     for curr_tuple in template:
         curr_word = curr_tuple[0]
-    if curr_word in stopwords or curr_word in punct:
+    if curr_word in stpwd or curr_word in punct:
         if curr_word in punct:
             template_len -= 1
     if template_len > 0:
