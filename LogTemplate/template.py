@@ -84,7 +84,7 @@ def transform_regex(template):
         else:
             temp_list = [token[0] for token in curr_list]
             temp_str = " ".join(temp_list)
-        regex_str = temp_str.replace(place_holder, "*")
+        regex_str = temp_str.replace(place_holder, "(.*)")
         temp_regex.append(regex_str)
     sorted_temp_regex = sorted(temp_regex, key = lambda x : len(x), reverse = True)
     return sorted_temp_regex     
