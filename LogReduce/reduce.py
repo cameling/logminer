@@ -30,7 +30,7 @@ def load_template(templatepath):
     with open(templatepath, 'r') as tfin:
         json_template = json.load(tfin)
         for curr_tmp in json_template:
-            template.append((curr_tmp["id"], str(curr_tmp["template"])))
+            template.append((curr_tmp["id"], curr_tmp["template"]))
     return template
 
 def match_template(logfilepath, peeler, template):
@@ -67,8 +67,23 @@ def match_template(logfilepath, peeler, template):
                     break
     return matched_count, matched_tokens
 
-def output_template(matched_count, matched_tokens):
-    pass
+def output_result(matched_count, matched_tokens, template, output_filepath):
+    set_template = {}
+    output_list = []
+    for curr_tmp in template:
+        set_template[curr_tmp[0]] = curr_tmp[1]
+    for k,v in matched_count.iteritems():        
+        meta_data = {}
+        meta_data["id"] = k
+        meta_data["count"] = v 
+        meta_data["template"] = set_template[k]
+        meta_data["tokens"] = matched_tokens[k]   
+        output_list.append(meta_data)
+    sorted_result = sorted(output_list, key = lambda x : x["id"])   
+    output_json = json.dumps(sorted_result, sort_keys=True, indent=4, separators=(',', ': '))
+    with open(output_filepath, 'w') as fout:
+        fout.write(output_json)
+        
         
             
 
@@ -82,9 +97,11 @@ if __name__ == "__main__":
     template = load_template(templatepath)
     
     print "Match log to templates."
-    match_template(logfilepath, peeler, template)
+    matched_count, matched_tokens = match_template(logfilepath, peeler, template)
     
     output_filepath = logfilepath + "_match_results"
     print "Write output to file " + output_filepath + "."
+    output_result(matched_count, matched_tokens, template, output_filepath)
+    print "Done."
     
     
