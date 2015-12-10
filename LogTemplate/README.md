@@ -26,5 +26,5 @@ For example, the sampled peeler is for a typical access log, to analyze visited 
 
 The exampled input log file and output templates with support set to 50 are in the sample folder, using:
 ```
-python template.py -s 50 -f sample/access_log -p peeler/access_log
+$ python template.py -s 50 -f sample/access_log -p peeler/access_log
 ```
