@@ -84,9 +84,6 @@ def output_result(matched_count, matched_tokens, template, output_filepath):
     with open(output_filepath, 'w') as fout:
         fout.write(output_json)
         
-        
-            
-
 if __name__ == "__main__":
     templatepath, logfilepath, peelerpath = parse_args()
     
@@ -103,5 +100,3 @@ if __name__ == "__main__":
     print "Write output to file " + output_filepath + "."
     output_result(matched_count, matched_tokens, template, output_filepath)
     print "Done."
-    
-    
