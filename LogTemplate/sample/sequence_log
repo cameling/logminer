@@ -1,0 +1,1404 @@
+2015-12-22 07:52:00  [ main:0 ] - [ INFO ]  Found bootstrap annotation netflix.karyon.archaius.ArchaiusBootstrap
+2015-12-22 07:52:00  [ main:11 ] - [ INFO ]  Adding BootstrapModule class netflix.karyon.archaius.ArchaiusBootstrapModule
+2015-12-22 07:52:00  [ main:15 ] - [ INFO ]  Found bootstrap annotation netflix.karyon.KaryonBootstrap
+2015-12-22 07:52:00  [ main:17 ] - [ INFO ]  Adding BootstrapModule class netflix.karyon.KaryonBootstrapModule
+2015-12-22 07:52:00  [ main:18 ] - [ INFO ]  Found bootstrap annotation com.google.inject.Singleton
+2015-12-22 07:52:00  [ main:21 ] - [ INFO ]  Found bootstrap annotation com.netflix.governator.annotations.Modules
+2015-12-22 07:52:00  [ main:22 ] - [ INFO ]  Adding BootstrapModule class com.netflix.governator.guice.bootstrap.ModulesBootstrap
+2015-12-22 07:52:00  [ main:205 ] - [ WARN ]  No base packages specified - no classpath scanning will be done
+2015-12-22 07:52:00  [ main:239 ] - [ WARN ]  No URLs will be polled as dynamic configuration sources.
+2015-12-22 07:52:00  [ main:240 ] - [ INFO ]  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2015-12-22 07:52:00  [ main:269 ] - [ INFO ]  DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@45f45fa1
+2015-12-22 07:52:00  [ main:497 ] - [ INFO ]  Loading application properties with app id: AppServer and environment: local
+2015-12-22 07:52:00  [ main:531 ] - [ INFO ]  Loaded properties file jar:file:/usr/app/topology-graph-service-all-1.0.jar!/AppServer.properties
+2015-12-22 07:52:00  [ main:533 ] - [ INFO ]  Loaded properties file jar:file:/usr/app/topology-graph-service-all-1.0.jar!/AppServer-local.properties
+2015-12-22 07:52:00  [ main:545 ] - [ INFO ]  Hibernate Validator null
+2015-12-22 07:52:00  [ main:567 ] - [ INFO ]  Getting instance of : netflix.karyon.ShutdownModule
+2015-12-22 07:52:00  [ main:570 ] - [ INFO ]  Adding module 'netflix.karyon.ShutdownModule
+2015-12-22 07:52:00  [ main:570 ] - [ INFO ]  Getting instance of : com.ibm.alchemy.karyon2.RestfulJettyModule
+2015-12-22 07:52:00  [ main:571 ] - [ INFO ]  Adding module 'com.ibm.alchemy.karyon2.RestfulJettyModule
+2015-12-22 07:52:01  [ main:1028 ] - [ INFO ]  Rx server started at port: 7002
+2015-12-22 07:52:01  [ main:1053 ] - [ INFO ]  Logging initialized @1556ms
+2015-12-22 07:52:05  [ main:4924 ] - [ INFO ]  Reflections took 3748 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 07:52:05  [ main:5111 ] - [ INFO ]  jetty-9.3.z-SNAPSHOT
+2015-12-22 07:52:05  [ main:5137 ] - [ INFO ]  Started o.e.j.s.ServletContextHandler@27d5a580{/,null,AVAILABLE}
+2015-12-22 07:52:05  [ main:5138 ] - [ INFO ]  Started o.e.j.s.ServletContextHandler@6cb6decd{/swagger,null,AVAILABLE}
+2015-12-22 07:52:05  [ main:5150 ] - [ INFO ]  Started ServerConnector@6b58b9e9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-12-22 07:52:05  [ main:5152 ] - [ INFO ]  Started @5655ms
+2015-12-22 07:52:25  [ qtp1081769770-23:25182 ] - [ INFO ]  Reflections took 2799 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 07:53:57  [ qtp1081769770-25:117189 ] - [ INFO ]  Reflections took 2916 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 07:54:36  [ qtp1081769770-25:156096 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 07:54:36  [ qtp1081769770-25:156097 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 07:54:36  [ qtp1081769770-25:156103 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770816367.
+2015-12-22 07:54:37  [ qtp1081769770-25:157447 ] - [ INFO ]  Retrieved PB records: 159, used 1350 ms.
+2015-12-22 07:54:37  [ qtp1081769770-25:157448 ] - [ INFO ]  Start to process PB records.
+2015-12-22 07:54:38  [ qtp1081769770-25:158405 ] - [ INFO ]  From PB records found 48 links, used 957 ms.
+2015-12-22 07:54:38  [ qtp1081769770-25:158406 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 07:54:38  [ qtp1081769770-25:158412 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 07:54:38  [ qtp1081769770-25:158413 ] - [ INFO ]  Topology Graph constructed, used 7 ms.
+2015-12-22 07:54:38  [ qtp1081769770-25:158414 ] - [ INFO ]  Topology discovery finished, used 2318 ms.
+2015-12-22 07:54:45  [ qtp1081769770-23:165154 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 07:54:45  [ qtp1081769770-23:165155 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 07:54:45  [ qtp1081769770-23:165156 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770825420.
+2015-12-22 07:54:46  [ qtp1081769770-23:165760 ] - [ INFO ]  Retrieved PB records: 140, used 605 ms.
+2015-12-22 07:54:46  [ qtp1081769770-23:165761 ] - [ INFO ]  Start to process PB records.
+2015-12-22 07:54:46  [ qtp1081769770-23:166289 ] - [ INFO ]  From PB records found 42 links, used 528 ms.
+2015-12-22 07:54:46  [ qtp1081769770-23:166301 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 07:54:46  [ qtp1081769770-23:166305 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 07:54:46  [ qtp1081769770-23:166306 ] - [ INFO ]  Topology Graph constructed, used 5 ms.
+2015-12-22 07:54:46  [ qtp1081769770-23:166306 ] - [ INFO ]  Topology discovery finished, used 1152 ms.
+2015-12-22 07:54:50  [ qtp1081769770-22:170700 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 07:54:50  [ qtp1081769770-22:170700 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 07:54:50  [ qtp1081769770-22:170701 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770830965.
+2015-12-22 07:54:51  [ qtp1081769770-22:171297 ] - [ INFO ]  Retrieved PB records: 130, used 597 ms.
+2015-12-22 07:54:51  [ qtp1081769770-22:171298 ] - [ INFO ]  Start to process PB records.
+2015-12-22 07:54:51  [ qtp1081769770-22:171647 ] - [ INFO ]  From PB records found 36 links, used 348 ms.
+2015-12-22 07:54:51  [ qtp1081769770-22:171647 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 07:54:51  [ qtp1081769770-22:171649 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 07:54:51  [ qtp1081769770-22:171650 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 07:54:51  [ qtp1081769770-22:171651 ] - [ INFO ]  Topology discovery finished, used 951 ms.
+2015-12-22 07:54:59  [ qtp1081769770-19:179205 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 07:54:59  [ qtp1081769770-19:179206 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 07:54:59  [ qtp1081769770-19:179207 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770299471.
+2015-12-22 07:55:00  [ qtp1081769770-19:180169 ] - [ INFO ]  Retrieved PB records: 496, used 963 ms.
+2015-12-22 07:55:00  [ qtp1081769770-19:180170 ] - [ INFO ]  Start to process PB records.
+2015-12-22 07:55:05  [ qtp1081769770-19:185302 ] - [ INFO ]  From PB records found 155 links, used 5132 ms.
+2015-12-22 07:55:05  [ qtp1081769770-19:185303 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 07:55:05  [ qtp1081769770-19:185309 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 07:55:05  [ qtp1081769770-19:185309 ] - [ INFO ]  Topology Graph constructed, used 6 ms.
+2015-12-22 07:55:05  [ qtp1081769770-19:185310 ] - [ INFO ]  Topology discovery finished, used 6105 ms.
+2015-12-22 07:59:19  [ qtp1081769770-25:439247 ] - [ INFO ]  Reflections took 2509 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 07:59:38  [ qtp1081769770-23:458620 ] - [ INFO ]  Reflections took 2436 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 07:59:53  [ qtp1081769770-19:472881 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 07:59:53  [ qtp1081769770-19:472882 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 07:59:53  [ qtp1081769770-19:472885 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771133149.
+2015-12-22 07:59:53  [ qtp1081769770-19:473537 ] - [ INFO ]  Retrieved PB records: 141, used 655 ms.
+2015-12-22 07:59:53  [ qtp1081769770-19:473538 ] - [ INFO ]  Start to process PB records.
+2015-12-22 07:59:54  [ qtp1081769770-19:473915 ] - [ INFO ]  From PB records found 43 links, used 377 ms.
+2015-12-22 07:59:54  [ qtp1081769770-19:473916 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 07:59:54  [ qtp1081769770-19:473918 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 07:59:54  [ qtp1081769770-19:473918 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 07:59:54  [ qtp1081769770-19:473918 ] - [ INFO ]  Topology discovery finished, used 1037 ms.
+2015-12-22 08:00:46  [ qtp1081769770-23:526031 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:00:46  [ qtp1081769770-23:526032 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:00:46  [ qtp1081769770-23:526034 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771186298.
+2015-12-22 08:00:46  [ qtp1081769770-23:526136 ] - [ INFO ]  I/O exception (java.net.SocketException) caught when processing request to {s}->https://logmet.ng.bluemix.net:443: Connection reset
+2015-12-22 08:00:46  [ qtp1081769770-23:526138 ] - [ INFO ]  Retrying request to {s}->https://logmet.ng.bluemix.net:443
+2015-12-22 08:00:46  [ qtp1081769770-23:526657 ] - [ INFO ]  Retrieved PB records: 145, used 625 ms.
+2015-12-22 08:00:46  [ qtp1081769770-23:526657 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:00:47  [ qtp1081769770-23:527697 ] - [ INFO ]  From PB records found 47 links, used 1040 ms.
+2015-12-22 08:00:47  [ qtp1081769770-23:527698 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:00:47  [ qtp1081769770-23:527700 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:00:47  [ qtp1081769770-23:527700 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 08:00:47  [ qtp1081769770-23:527700 ] - [ INFO ]  Topology discovery finished, used 1669 ms.
+2015-12-22 08:02:24  [ qtp1081769770-25:624314 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:02:24  [ qtp1081769770-25:624314 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:02:24  [ qtp1081769770-25:624315 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770744579.
+2015-12-22 08:02:25  [ qtp1081769770-25:625277 ] - [ INFO ]  Retrieved PB records: 498, used 963 ms.
+2015-12-22 08:02:25  [ qtp1081769770-25:625277 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:02:30  [ qtp1081769770-25:630261 ] - [ INFO ]  From PB records found 155 links, used 4984 ms.
+2015-12-22 08:02:30  [ qtp1081769770-25:630261 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:02:30  [ qtp1081769770-25:630267 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:02:30  [ qtp1081769770-25:630267 ] - [ INFO ]  Topology Graph constructed, used 6 ms.
+2015-12-22 08:02:30  [ qtp1081769770-25:630267 ] - [ INFO ]  Topology discovery finished, used 5953 ms.
+2015-12-22 08:02:30  [ qtp1081769770-24:630524 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:02:30  [ qtp1081769770-24:630525 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:02:30  [ qtp1081769770-24:630526 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770750790.
+2015-12-22 08:02:31  [ qtp1081769770-24:631331 ] - [ INFO ]  Retrieved PB records: 498, used 806 ms.
+2015-12-22 08:02:31  [ qtp1081769770-24:631332 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:02:36  [ qtp1081769770-24:636199 ] - [ INFO ]  From PB records found 156 links, used 4867 ms.
+2015-12-22 08:02:36  [ qtp1081769770-24:636200 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:02:36  [ qtp1081769770-24:636204 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:02:36  [ qtp1081769770-24:636205 ] - [ INFO ]  Topology Graph constructed, used 5 ms.
+2015-12-22 08:02:36  [ qtp1081769770-24:636205 ] - [ INFO ]  Topology discovery finished, used 5681 ms.
+2015-12-22 08:02:57  [ qtp1081769770-19:657271 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:02:57  [ qtp1081769770-19:657272 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:02:57  [ qtp1081769770-19:657273 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771317537.
+2015-12-22 08:02:58  [ qtp1081769770-19:657844 ] - [ INFO ]  Retrieved PB records: 180, used 572 ms.
+2015-12-22 08:02:58  [ qtp1081769770-19:657845 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:02:58  [ qtp1081769770-19:658455 ] - [ INFO ]  From PB records found 60 links, used 610 ms.
+2015-12-22 08:02:58  [ qtp1081769770-19:658455 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:02:58  [ qtp1081769770-19:658457 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:02:58  [ qtp1081769770-19:658458 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:02:58  [ qtp1081769770-19:658458 ] - [ INFO ]  Topology discovery finished, used 1187 ms.
+2015-12-22 08:03:20  [ qtp1081769770-26:680364 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:03:20  [ qtp1081769770-26:680365 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:03:20  [ qtp1081769770-26:680366 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770800630.
+2015-12-22 08:03:21  [ qtp1081769770-26:681222 ] - [ INFO ]  Retrieved PB records: 497, used 857 ms.
+2015-12-22 08:03:21  [ qtp1081769770-26:681223 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:03:26  [ qtp1081769770-26:685940 ] - [ INFO ]  From PB records found 158 links, used 4717 ms.
+2015-12-22 08:03:26  [ qtp1081769770-26:685941 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:03:26  [ qtp1081769770-26:685944 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:03:26  [ qtp1081769770-26:685944 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:03:26  [ qtp1081769770-26:685944 ] - [ INFO ]  Topology discovery finished, used 5580 ms.
+2015-12-22 08:03:26  [ qtp1081769770-19:686204 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:03:26  [ qtp1081769770-19:686205 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:03:26  [ qtp1081769770-19:686206 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770806470.
+2015-12-22 08:03:27  [ qtp1081769770-19:687167 ] - [ INFO ]  Retrieved PB records: 497, used 962 ms.
+2015-12-22 08:03:27  [ qtp1081769770-19:687168 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:03:32  [ qtp1081769770-19:691914 ] - [ INFO ]  From PB records found 158 links, used 4746 ms.
+2015-12-22 08:03:32  [ qtp1081769770-19:691915 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:03:32  [ qtp1081769770-19:691917 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:03:32  [ qtp1081769770-19:691918 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:03:32  [ qtp1081769770-19:691918 ] - [ INFO ]  Topology discovery finished, used 5714 ms.
+2015-12-22 08:05:28  [ qtp1081769770-19:808732 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:05:28  [ qtp1081769770-19:808733 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:05:28  [ qtp1081769770-19:808734 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770928998.
+2015-12-22 08:05:29  [ qtp1081769770-19:809597 ] - [ INFO ]  Retrieved PB records: 498, used 864 ms.
+2015-12-22 08:05:29  [ qtp1081769770-19:809598 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:05:34  [ qtp1081769770-19:814395 ] - [ INFO ]  From PB records found 151 links, used 4797 ms.
+2015-12-22 08:05:34  [ qtp1081769770-19:814396 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:05:34  [ qtp1081769770-19:814398 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:05:34  [ qtp1081769770-19:814399 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:05:34  [ qtp1081769770-19:814399 ] - [ INFO ]  Topology discovery finished, used 5667 ms.
+2015-12-22 08:05:34  [ qtp1081769770-25:814669 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:05:34  [ qtp1081769770-25:814671 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:05:34  [ qtp1081769770-25:814672 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450770934936.
+2015-12-22 08:05:35  [ qtp1081769770-25:815569 ] - [ INFO ]  Retrieved PB records: 498, used 898 ms.
+2015-12-22 08:05:35  [ qtp1081769770-25:815569 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:05:40  [ qtp1081769770-25:820353 ] - [ INFO ]  From PB records found 149 links, used 4784 ms.
+2015-12-22 08:05:40  [ qtp1081769770-25:820353 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:05:40  [ qtp1081769770-25:820356 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:05:40  [ qtp1081769770-25:820356 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:05:40  [ qtp1081769770-25:820357 ] - [ INFO ]  Topology discovery finished, used 5688 ms.
+2015-12-22 08:15:21  [ qtp1081769770-26:1401012 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:15:21  [ qtp1081769770-26:1401013 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:15:21  [ qtp1081769770-26:1401014 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771521278.
+2015-12-22 08:15:22  [ qtp1081769770-26:1401925 ] - [ INFO ]  Retrieved PB records: 499, used 912 ms.
+2015-12-22 08:15:22  [ qtp1081769770-26:1401926 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:15:27  [ qtp1081769770-26:1406740 ] - [ INFO ]  From PB records found 151 links, used 4814 ms.
+2015-12-22 08:15:27  [ qtp1081769770-26:1406741 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:15:27  [ qtp1081769770-26:1406743 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:15:27  [ qtp1081769770-26:1406744 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:15:27  [ qtp1081769770-26:1406744 ] - [ INFO ]  Topology discovery finished, used 5732 ms.
+2015-12-22 08:15:56  [ qtp1081769770-24:1436248 ] - [ INFO ]  Reflections took 2468 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 08:16:00  [ qtp1081769770-26:1440420 ] - [ INFO ]  Reflections took 2588 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 08:16:04  [ qtp1081769770-22:1444150 ] - [ INFO ]  Reflections took 2436 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 08:16:09  [ qtp1081769770-25:1449360 ] - [ INFO ]  Reflections took 2832 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 08:17:27  [ qtp1081769770-24:1527297 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:17:27  [ qtp1081769770-24:1527297 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:17:27  [ qtp1081769770-24:1527299 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450772187563.
+2015-12-22 08:17:28  [ qtp1081769770-24:1527861 ] - [ INFO ]  Retrieved PB records: 151, used 564 ms.
+2015-12-22 08:17:28  [ qtp1081769770-24:1527862 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:17:28  [ qtp1081769770-24:1528284 ] - [ INFO ]  From PB records found 49 links, used 421 ms.
+2015-12-22 08:17:28  [ qtp1081769770-24:1528284 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:17:28  [ qtp1081769770-24:1528286 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:17:28  [ qtp1081769770-24:1528286 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 08:17:28  [ qtp1081769770-24:1528286 ] - [ INFO ]  Topology discovery finished, used 989 ms.
+2015-12-22 08:18:23  [ qtp1081769770-19:1583331 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:23  [ qtp1081769770-19:1583332 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:23  [ qtp1081769770-19:1583336 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771703600.
+2015-12-22 08:18:24  [ qtp1081769770-19:1584208 ] - [ INFO ]  Retrieved PB records: 497, used 876 ms.
+2015-12-22 08:18:24  [ qtp1081769770-19:1584209 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:29  [ qtp1081769770-19:1589093 ] - [ INFO ]  From PB records found 154 links, used 4884 ms.
+2015-12-22 08:18:29  [ qtp1081769770-19:1589094 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:29  [ qtp1081769770-19:1589097 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:29  [ qtp1081769770-19:1589097 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:18:29  [ qtp1081769770-19:1589097 ] - [ INFO ]  Topology discovery finished, used 5766 ms.
+2015-12-22 08:18:29  [ qtp1081769770-24:1589370 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:29  [ qtp1081769770-24:1589371 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:29  [ qtp1081769770-24:1589372 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771709636.
+2015-12-22 08:18:30  [ qtp1081769770-24:1590321 ] - [ INFO ]  Retrieved PB records: 497, used 950 ms.
+2015-12-22 08:18:30  [ qtp1081769770-24:1590322 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:35  [ qtp1081769770-24:1595106 ] - [ INFO ]  From PB records found 153 links, used 4784 ms.
+2015-12-22 08:18:35  [ qtp1081769770-24:1595107 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:35  [ qtp1081769770-24:1595110 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:35  [ qtp1081769770-24:1595110 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:18:35  [ qtp1081769770-24:1595110 ] - [ INFO ]  Topology discovery finished, used 5740 ms.
+2015-12-22 08:18:35  [ qtp1081769770-26:1595362 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:35  [ qtp1081769770-26:1595362 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:35  [ qtp1081769770-26:1595363 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771715627.
+2015-12-22 08:18:36  [ qtp1081769770-26:1596195 ] - [ INFO ]  Retrieved PB records: 497, used 833 ms.
+2015-12-22 08:18:36  [ qtp1081769770-26:1596196 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:40  [ qtp1081769770-20:1600401 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:40  [ qtp1081769770-20:1600402 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:40  [ qtp1081769770-20:1600403 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450772260667.
+2015-12-22 08:18:41  [ qtp1081769770-20:1600968 ] - [ INFO ]  Retrieved PB records: 150, used 566 ms.
+2015-12-22 08:18:41  [ qtp1081769770-20:1600969 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:41  [ qtp1081769770-26:1600974 ] - [ INFO ]  From PB records found 154 links, used 4778 ms.
+2015-12-22 08:18:41  [ qtp1081769770-26:1600975 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:41  [ qtp1081769770-26:1600977 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:41  [ qtp1081769770-26:1600978 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:18:41  [ qtp1081769770-26:1600978 ] - [ INFO ]  Topology discovery finished, used 5617 ms.
+2015-12-22 08:18:41  [ qtp1081769770-23:1601249 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:41  [ qtp1081769770-23:1601250 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:41  [ qtp1081769770-23:1601251 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771721515.
+2015-12-22 08:18:41  [ qtp1081769770-20:1601391 ] - [ INFO ]  From PB records found 47 links, used 422 ms.
+2015-12-22 08:18:41  [ qtp1081769770-20:1601391 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:41  [ qtp1081769770-20:1601392 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:41  [ qtp1081769770-20:1601393 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 08:18:41  [ qtp1081769770-20:1601393 ] - [ INFO ]  Topology discovery finished, used 992 ms.
+2015-12-22 08:18:42  [ qtp1081769770-23:1602145 ] - [ INFO ]  Retrieved PB records: 496, used 895 ms.
+2015-12-22 08:18:42  [ qtp1081769770-23:1602146 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:47  [ qtp1081769770-23:1606863 ] - [ INFO ]  From PB records found 152 links, used 4717 ms.
+2015-12-22 08:18:47  [ qtp1081769770-23:1606864 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:47  [ qtp1081769770-23:1606867 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:47  [ qtp1081769770-23:1606867 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:18:47  [ qtp1081769770-23:1606868 ] - [ INFO ]  Topology discovery finished, used 5619 ms.
+2015-12-22 08:18:47  [ qtp1081769770-22:1607123 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:47  [ qtp1081769770-22:1607123 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:47  [ qtp1081769770-22:1607124 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771727388.
+2015-12-22 08:18:48  [ qtp1081769770-22:1607936 ] - [ INFO ]  Retrieved PB records: 496, used 813 ms.
+2015-12-22 08:18:48  [ qtp1081769770-22:1607937 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:53  [ qtp1081769770-22:1612748 ] - [ INFO ]  From PB records found 151 links, used 4811 ms.
+2015-12-22 08:18:53  [ qtp1081769770-22:1612749 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:53  [ qtp1081769770-22:1612752 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:53  [ qtp1081769770-22:1612752 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:18:53  [ qtp1081769770-22:1612752 ] - [ INFO ]  Topology discovery finished, used 5629 ms.
+2015-12-22 08:18:53  [ qtp1081769770-26:1613024 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:18:53  [ qtp1081769770-26:1613024 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:18:53  [ qtp1081769770-26:1613025 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771733289.
+2015-12-22 08:18:54  [ qtp1081769770-26:1613826 ] - [ INFO ]  Retrieved PB records: 496, used 802 ms.
+2015-12-22 08:18:54  [ qtp1081769770-26:1613827 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:18:58  [ qtp1081769770-26:1618560 ] - [ INFO ]  From PB records found 152 links, used 4733 ms.
+2015-12-22 08:18:58  [ qtp1081769770-26:1618560 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:18:58  [ qtp1081769770-26:1618563 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:18:58  [ qtp1081769770-26:1618565 ] - [ INFO ]  Topology Graph constructed, used 5 ms.
+2015-12-22 08:18:58  [ qtp1081769770-26:1618566 ] - [ INFO ]  Topology discovery finished, used 5542 ms.
+2015-12-22 08:19:35  [ qtp1081769770-25:1654824 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:19:35  [ qtp1081769770-25:1654825 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:19:35  [ qtp1081769770-25:1654826 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771775090.
+2015-12-22 08:19:35  [ qtp1081769770-25:1655636 ] - [ INFO ]  Retrieved PB records: 497, used 811 ms.
+2015-12-22 08:19:35  [ qtp1081769770-25:1655637 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:19:40  [ qtp1081769770-25:1660353 ] - [ INFO ]  From PB records found 150 links, used 4716 ms.
+2015-12-22 08:19:40  [ qtp1081769770-25:1660353 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:19:40  [ qtp1081769770-25:1660356 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:19:40  [ qtp1081769770-25:1660356 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:19:40  [ qtp1081769770-25:1660356 ] - [ INFO ]  Topology discovery finished, used 5532 ms.
+2015-12-22 08:19:40  [ qtp1081769770-23:1660628 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:19:40  [ qtp1081769770-23:1660633 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:19:40  [ qtp1081769770-23:1660634 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771780898.
+2015-12-22 08:19:41  [ qtp1081769770-23:1661485 ] - [ INFO ]  Retrieved PB records: 497, used 852 ms.
+2015-12-22 08:19:41  [ qtp1081769770-23:1661486 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:19:46  [ qtp1081769770-23:1666251 ] - [ INFO ]  From PB records found 151 links, used 4765 ms.
+2015-12-22 08:19:46  [ qtp1081769770-23:1666251 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:19:46  [ qtp1081769770-23:1666254 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:19:46  [ qtp1081769770-23:1666254 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:19:46  [ qtp1081769770-23:1666254 ] - [ INFO ]  Topology discovery finished, used 5626 ms.
+2015-12-22 08:19:46  [ qtp1081769770-26:1666505 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:19:46  [ qtp1081769770-26:1666505 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:19:46  [ qtp1081769770-26:1666506 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771786770.
+2015-12-22 08:19:47  [ qtp1081769770-26:1667399 ] - [ INFO ]  Retrieved PB records: 497, used 894 ms.
+2015-12-22 08:19:47  [ qtp1081769770-26:1667400 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:19:52  [ qtp1081769770-26:1672192 ] - [ INFO ]  From PB records found 150 links, used 4792 ms.
+2015-12-22 08:19:52  [ qtp1081769770-26:1672192 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:19:52  [ qtp1081769770-26:1672195 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:19:52  [ qtp1081769770-26:1672195 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:19:52  [ qtp1081769770-26:1672195 ] - [ INFO ]  Topology discovery finished, used 5690 ms.
+2015-12-22 08:19:52  [ qtp1081769770-20:1672472 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:19:52  [ qtp1081769770-20:1672472 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:19:52  [ qtp1081769770-20:1672473 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771792737.
+2015-12-22 08:19:53  [ qtp1081769770-20:1673352 ] - [ INFO ]  Retrieved PB records: 497, used 880 ms.
+2015-12-22 08:19:53  [ qtp1081769770-20:1673353 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:19:58  [ qtp1081769770-20:1678057 ] - [ INFO ]  From PB records found 153 links, used 4704 ms.
+2015-12-22 08:19:58  [ qtp1081769770-20:1678057 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:19:58  [ qtp1081769770-20:1678060 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:19:58  [ qtp1081769770-20:1678060 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:19:58  [ qtp1081769770-20:1678060 ] - [ INFO ]  Topology discovery finished, used 5588 ms.
+2015-12-22 08:19:58  [ qtp1081769770-24:1678310 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:19:58  [ qtp1081769770-24:1678311 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:19:58  [ qtp1081769770-24:1678312 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771798576.
+2015-12-22 08:19:59  [ qtp1081769770-24:1679180 ] - [ INFO ]  Retrieved PB records: 498, used 869 ms.
+2015-12-22 08:19:59  [ qtp1081769770-24:1679180 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:20:04  [ qtp1081769770-24:1683931 ] - [ INFO ]  From PB records found 149 links, used 4751 ms.
+2015-12-22 08:20:04  [ qtp1081769770-24:1683932 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:20:04  [ qtp1081769770-24:1683934 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:20:04  [ qtp1081769770-24:1683935 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:20:04  [ qtp1081769770-24:1683935 ] - [ INFO ]  Topology discovery finished, used 5625 ms.
+2015-12-22 08:20:04  [ qtp1081769770-19:1684205 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:20:04  [ qtp1081769770-19:1684206 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:20:04  [ qtp1081769770-19:1684207 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771804471.
+2015-12-22 08:20:05  [ qtp1081769770-19:1685084 ] - [ INFO ]  Retrieved PB records: 498, used 878 ms.
+2015-12-22 08:20:05  [ qtp1081769770-19:1685085 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:20:10  [ qtp1081769770-19:1689817 ] - [ INFO ]  From PB records found 148 links, used 4732 ms.
+2015-12-22 08:20:10  [ qtp1081769770-19:1689818 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:20:10  [ qtp1081769770-19:1689820 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:20:10  [ qtp1081769770-19:1689821 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:20:10  [ qtp1081769770-19:1689821 ] - [ INFO ]  Topology discovery finished, used 5616 ms.
+2015-12-22 08:20:31  [ qtp1081769770-25:1711565 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:20:31  [ qtp1081769770-25:1711566 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:20:31  [ qtp1081769770-25:1711567 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771831831.
+2015-12-22 08:20:39  [ qtp1081769770-25:1719700 ] - [ INFO ]  Retrieved PB records: 498, used 8134 ms.
+2015-12-22 08:20:39  [ qtp1081769770-25:1719701 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:20:44  [ qtp1081769770-25:1724482 ] - [ INFO ]  From PB records found 152 links, used 4781 ms.
+2015-12-22 08:20:44  [ qtp1081769770-25:1724483 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:20:44  [ qtp1081769770-25:1724485 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:20:44  [ qtp1081769770-25:1724486 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:20:44  [ qtp1081769770-25:1724486 ] - [ INFO ]  Topology discovery finished, used 12921 ms.
+2015-12-22 08:20:45  [ qtp1081769770-23:1724757 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:20:45  [ qtp1081769770-23:1724758 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:20:45  [ qtp1081769770-23:1724759 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771845023.
+2015-12-22 08:20:45  [ qtp1081769770-23:1725662 ] - [ INFO ]  Retrieved PB records: 498, used 904 ms.
+2015-12-22 08:20:45  [ qtp1081769770-23:1725663 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:20:50  [ qtp1081769770-23:1730405 ] - [ INFO ]  From PB records found 153 links, used 4742 ms.
+2015-12-22 08:20:50  [ qtp1081769770-23:1730405 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:20:50  [ qtp1081769770-23:1730408 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:20:50  [ qtp1081769770-23:1730408 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:20:50  [ qtp1081769770-23:1730408 ] - [ INFO ]  Topology discovery finished, used 5651 ms.
+2015-12-22 08:20:50  [ qtp1081769770-26:1730658 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:20:50  [ qtp1081769770-26:1730659 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:20:50  [ qtp1081769770-26:1730660 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771850924.
+2015-12-22 08:20:51  [ qtp1081769770-26:1731516 ] - [ INFO ]  Retrieved PB records: 498, used 857 ms.
+2015-12-22 08:20:51  [ qtp1081769770-26:1731518 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:20:56  [ qtp1081769770-26:1736290 ] - [ INFO ]  From PB records found 153 links, used 4772 ms.
+2015-12-22 08:20:56  [ qtp1081769770-26:1736291 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:20:56  [ qtp1081769770-26:1736293 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:20:56  [ qtp1081769770-26:1736294 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:20:56  [ qtp1081769770-26:1736294 ] - [ INFO ]  Topology discovery finished, used 5636 ms.
+2015-12-22 08:20:56  [ qtp1081769770-20:1736566 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:20:56  [ qtp1081769770-20:1736567 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:20:56  [ qtp1081769770-20:1736578 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771856842.
+2015-12-22 08:20:57  [ qtp1081769770-20:1737426 ] - [ INFO ]  Retrieved PB records: 498, used 859 ms.
+2015-12-22 08:20:57  [ qtp1081769770-20:1737427 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:21:02  [ qtp1081769770-20:1742207 ] - [ INFO ]  From PB records found 153 links, used 4779 ms.
+2015-12-22 08:21:02  [ qtp1081769770-20:1742207 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:21:02  [ qtp1081769770-20:1742209 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:21:02  [ qtp1081769770-20:1742210 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:21:02  [ qtp1081769770-20:1742210 ] - [ INFO ]  Topology discovery finished, used 5644 ms.
+2015-12-22 08:21:02  [ qtp1081769770-24:1742460 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:21:02  [ qtp1081769770-24:1742461 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:21:02  [ qtp1081769770-24:1742462 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771862726.
+2015-12-22 08:21:03  [ qtp1081769770-24:1743330 ] - [ INFO ]  Retrieved PB records: 498, used 869 ms.
+2015-12-22 08:21:03  [ qtp1081769770-24:1743331 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:21:08  [ qtp1081769770-24:1748083 ] - [ INFO ]  From PB records found 154 links, used 4752 ms.
+2015-12-22 08:21:08  [ qtp1081769770-24:1748083 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:21:08  [ qtp1081769770-24:1748086 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:21:08  [ qtp1081769770-24:1748086 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 08:21:08  [ qtp1081769770-24:1748086 ] - [ INFO ]  Topology discovery finished, used 5626 ms.
+2015-12-22 08:21:08  [ qtp1081769770-19:1748360 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:21:08  [ qtp1081769770-19:1748364 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:21:08  [ qtp1081769770-19:1748365 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450771868629.
+2015-12-22 08:21:09  [ qtp1081769770-19:1749265 ] - [ INFO ]  Retrieved PB records: 498, used 901 ms.
+2015-12-22 08:21:09  [ qtp1081769770-19:1749266 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:21:14  [ qtp1081769770-19:1754022 ] - [ INFO ]  From PB records found 154 links, used 4756 ms.
+2015-12-22 08:21:14  [ qtp1081769770-19:1754023 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:21:14  [ qtp1081769770-19:1754025 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:21:14  [ qtp1081769770-19:1754025 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 08:21:14  [ qtp1081769770-19:1754026 ] - [ INFO ]  Topology discovery finished, used 5666 ms.
+2015-12-22 08:32:03  [ qtp1081769770-24:2403203 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:32:03  [ qtp1081769770-24:2403203 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:32:03  [ qtp1081769770-24:2403204 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450773063468.
+2015-12-22 08:32:04  [ qtp1081769770-24:2403865 ] - [ INFO ]  Retrieved PB records: 157, used 662 ms.
+2015-12-22 08:32:04  [ qtp1081769770-24:2403866 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:32:04  [ qtp1081769770-24:2404327 ] - [ INFO ]  From PB records found 48 links, used 461 ms.
+2015-12-22 08:32:04  [ qtp1081769770-24:2404328 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:32:04  [ qtp1081769770-24:2404329 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:32:04  [ qtp1081769770-24:2404329 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:32:04  [ qtp1081769770-24:2404329 ] - [ INFO ]  Topology discovery finished, used 1126 ms.
+2015-12-22 08:38:05  [ qtp1081769770-25:2765407 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:38:05  [ qtp1081769770-25:2765408 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:38:05  [ qtp1081769770-25:2765409 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450773425673.
+2015-12-22 08:38:06  [ qtp1081769770-25:2766010 ] - [ INFO ]  Retrieved PB records: 156, used 602 ms.
+2015-12-22 08:38:06  [ qtp1081769770-25:2766010 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:38:06  [ qtp1081769770-25:2766471 ] - [ INFO ]  From PB records found 48 links, used 461 ms.
+2015-12-22 08:38:06  [ qtp1081769770-25:2766472 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:38:06  [ qtp1081769770-25:2766473 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:38:06  [ qtp1081769770-25:2766473 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:38:06  [ qtp1081769770-25:2766474 ] - [ INFO ]  Topology discovery finished, used 1067 ms.
+2015-12-22 08:39:47  [ qtp1081769770-23:2867674 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:39:47  [ qtp1081769770-23:2867675 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:39:47  [ qtp1081769770-23:2867675 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450773527939.
+2015-12-22 08:39:48  [ qtp1081769770-23:2868322 ] - [ INFO ]  Retrieved PB records: 138, used 647 ms.
+2015-12-22 08:39:48  [ qtp1081769770-23:2868323 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:39:48  [ qtp1081769770-23:2868675 ] - [ INFO ]  From PB records found 40 links, used 352 ms.
+2015-12-22 08:39:48  [ qtp1081769770-23:2868676 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:39:48  [ qtp1081769770-23:2868677 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:39:48  [ qtp1081769770-23:2868677 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:39:48  [ qtp1081769770-23:2868677 ] - [ INFO ]  Topology discovery finished, used 1003 ms.
+2015-12-22 08:42:04  [ qtp1081769770-25:3003862 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:42:04  [ qtp1081769770-25:3003862 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:42:04  [ qtp1081769770-25:3003863 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450773664127.
+2015-12-22 08:42:04  [ qtp1081769770-25:3004436 ] - [ INFO ]  Retrieved PB records: 144, used 574 ms.
+2015-12-22 08:42:04  [ qtp1081769770-25:3004437 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:42:05  [ qtp1081769770-25:3004827 ] - [ INFO ]  From PB records found 46 links, used 390 ms.
+2015-12-22 08:42:05  [ qtp1081769770-25:3004828 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:42:05  [ qtp1081769770-25:3004829 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:42:05  [ qtp1081769770-25:3004829 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:42:05  [ qtp1081769770-25:3004829 ] - [ INFO ]  Topology discovery finished, used 967 ms.
+2015-12-22 08:44:56  [ qtp1081769770-19:3176225 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:44:56  [ qtp1081769770-19:3176226 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:44:56  [ qtp1081769770-19:3176227 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450773836491.
+2015-12-22 08:44:57  [ qtp1081769770-19:3176933 ] - [ INFO ]  Retrieved PB records: 171, used 707 ms.
+2015-12-22 08:44:57  [ qtp1081769770-19:3176933 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:44:57  [ qtp1081769770-19:3177487 ] - [ INFO ]  From PB records found 54 links, used 554 ms.
+2015-12-22 08:44:57  [ qtp1081769770-19:3177488 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:44:57  [ qtp1081769770-19:3177489 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:44:57  [ qtp1081769770-19:3177489 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:44:57  [ qtp1081769770-19:3177489 ] - [ INFO ]  Topology discovery finished, used 1264 ms.
+2015-12-22 08:55:11  [ qtp1081769770-24:3791583 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:55:11  [ qtp1081769770-24:3791584 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:55:11  [ qtp1081769770-24:3791585 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450774451849.
+2015-12-22 08:55:12  [ qtp1081769770-24:3792282 ] - [ INFO ]  Retrieved PB records: 166, used 698 ms.
+2015-12-22 08:55:12  [ qtp1081769770-24:3792282 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:55:13  [ qtp1081769770-24:3792799 ] - [ INFO ]  From PB records found 52 links, used 517 ms.
+2015-12-22 08:55:13  [ qtp1081769770-24:3792799 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:55:13  [ qtp1081769770-24:3792800 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:55:13  [ qtp1081769770-24:3792800 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:55:13  [ qtp1081769770-24:3792800 ] - [ INFO ]  Topology discovery finished, used 1217 ms.
+2015-12-22 08:59:35  [ qtp1081769770-26:4055601 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 08:59:35  [ qtp1081769770-26:4055601 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 08:59:35  [ qtp1081769770-26:4055602 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450774715866.
+2015-12-22 08:59:36  [ qtp1081769770-26:4056204 ] - [ INFO ]  Retrieved PB records: 146, used 603 ms.
+2015-12-22 08:59:36  [ qtp1081769770-26:4056204 ] - [ INFO ]  Start to process PB records.
+2015-12-22 08:59:36  [ qtp1081769770-26:4056605 ] - [ INFO ]  From PB records found 47 links, used 401 ms.
+2015-12-22 08:59:36  [ qtp1081769770-26:4056605 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 08:59:36  [ qtp1081769770-26:4056606 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 08:59:36  [ qtp1081769770-26:4056606 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 08:59:36  [ qtp1081769770-26:4056607 ] - [ INFO ]  Topology discovery finished, used 1006 ms.
+2015-12-22 09:01:21  [ qtp1081769770-23:4161087 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:01:21  [ qtp1081769770-23:4161087 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:01:21  [ qtp1081769770-23:4161088 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450774821352.
+2015-12-22 09:01:21  [ qtp1081769770-23:4161690 ] - [ INFO ]  Retrieved PB records: 147, used 603 ms.
+2015-12-22 09:01:21  [ qtp1081769770-23:4161690 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:01:22  [ qtp1081769770-23:4162096 ] - [ INFO ]  From PB records found 47 links, used 406 ms.
+2015-12-22 09:01:22  [ qtp1081769770-23:4162096 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:01:22  [ qtp1081769770-23:4162097 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:01:22  [ qtp1081769770-23:4162097 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 09:01:22  [ qtp1081769770-23:4162098 ] - [ INFO ]  Topology discovery finished, used 1011 ms.
+2015-12-22 09:18:10  [ qtp1081769770-25:5170195 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:18:10  [ qtp1081769770-25:5170196 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:18:10  [ qtp1081769770-25:5170197 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450775830461.
+2015-12-22 09:18:11  [ qtp1081769770-25:5170811 ] - [ INFO ]  Retrieved PB records: 134, used 615 ms.
+2015-12-22 09:18:11  [ qtp1081769770-25:5170811 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:18:11  [ qtp1081769770-25:5171142 ] - [ INFO ]  From PB records found 39 links, used 331 ms.
+2015-12-22 09:18:11  [ qtp1081769770-25:5171143 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:18:11  [ qtp1081769770-25:5171143 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:18:11  [ qtp1081769770-25:5171144 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 09:18:11  [ qtp1081769770-25:5171144 ] - [ INFO ]  Topology discovery finished, used 949 ms.
+2015-12-22 09:48:01  [ main:0 ] - [ INFO ]  Found bootstrap annotation netflix.karyon.archaius.ArchaiusBootstrap
+2015-12-22 09:48:01  [ main:11 ] - [ INFO ]  Adding BootstrapModule class netflix.karyon.archaius.ArchaiusBootstrapModule
+2015-12-22 09:48:01  [ main:15 ] - [ INFO ]  Found bootstrap annotation netflix.karyon.KaryonBootstrap
+2015-12-22 09:48:01  [ main:17 ] - [ INFO ]  Adding BootstrapModule class netflix.karyon.KaryonBootstrapModule
+2015-12-22 09:48:01  [ main:18 ] - [ INFO ]  Found bootstrap annotation com.google.inject.Singleton
+2015-12-22 09:48:01  [ main:21 ] - [ INFO ]  Found bootstrap annotation com.netflix.governator.annotations.Modules
+2015-12-22 09:48:01  [ main:22 ] - [ INFO ]  Adding BootstrapModule class com.netflix.governator.guice.bootstrap.ModulesBootstrap
+2015-12-22 09:48:02  [ main:211 ] - [ WARN ]  No base packages specified - no classpath scanning will be done
+2015-12-22 09:48:02  [ main:246 ] - [ WARN ]  No URLs will be polled as dynamic configuration sources.
+2015-12-22 09:48:02  [ main:247 ] - [ INFO ]  To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2015-12-22 09:48:02  [ main:277 ] - [ INFO ]  DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@45f45fa1
+2015-12-22 09:48:02  [ main:508 ] - [ INFO ]  Loading application properties with app id: AppServer and environment: local
+2015-12-22 09:48:02  [ main:544 ] - [ INFO ]  Loaded properties file jar:file:/usr/app/topology-graph-service-all-1.0.jar!/AppServer.properties
+2015-12-22 09:48:02  [ main:546 ] - [ INFO ]  Loaded properties file jar:file:/usr/app/topology-graph-service-all-1.0.jar!/AppServer-local.properties
+2015-12-22 09:48:02  [ main:560 ] - [ INFO ]  Hibernate Validator null
+2015-12-22 09:48:02  [ main:585 ] - [ INFO ]  Getting instance of : netflix.karyon.ShutdownModule
+2015-12-22 09:48:02  [ main:588 ] - [ INFO ]  Adding module 'netflix.karyon.ShutdownModule
+2015-12-22 09:48:02  [ main:589 ] - [ INFO ]  Getting instance of : com.ibm.alchemy.karyon2.RestfulJettyModule
+2015-12-22 09:48:02  [ main:589 ] - [ INFO ]  Adding module 'com.ibm.alchemy.karyon2.RestfulJettyModule
+2015-12-22 09:48:02  [ main:1045 ] - [ INFO ]  Rx server started at port: 7002
+2015-12-22 09:48:02  [ main:1070 ] - [ INFO ]  Logging initialized @1575ms
+2015-12-22 09:48:06  [ main:4935 ] - [ INFO ]  Reflections took 3740 ms to scan 1 urls, producing 27941 keys and 50594 values 
+2015-12-22 09:48:06  [ main:5111 ] - [ INFO ]  jetty-9.3.z-SNAPSHOT
+2015-12-22 09:48:07  [ main:5138 ] - [ INFO ]  Started o.e.j.s.ServletContextHandler@27d5a580{/,null,AVAILABLE}
+2015-12-22 09:48:07  [ main:5139 ] - [ INFO ]  Started o.e.j.s.ServletContextHandler@6cb6decd{/swagger,null,AVAILABLE}
+2015-12-22 09:48:07  [ main:5149 ] - [ INFO ]  Started ServerConnector@6b58b9e9{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2015-12-22 09:48:07  [ main:5151 ] - [ INFO ]  Started @5657ms
+2015-12-22 09:49:27  [ qtp1081769770-22:86130 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:27  [ qtp1081769770-22:86130 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:28  [ qtp1081769770-22:86135 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777708000.
+2015-12-22 09:49:29  [ qtp1081769770-22:87269 ] - [ INFO ]  Retrieved PB records: 142, used 1139 ms.
+2015-12-22 09:49:29  [ qtp1081769770-22:87270 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:29  [ qtp1081769770-22:88040 ] - [ INFO ]  From PB records found 45 links, used 770 ms.
+2015-12-22 09:49:29  [ qtp1081769770-22:88041 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:29  [ qtp1081769770-22:88047 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:29  [ qtp1081769770-22:88048 ] - [ INFO ]  Topology Graph constructed, used 7 ms.
+2015-12-22 09:49:29  [ qtp1081769770-22:88048 ] - [ INFO ]  Topology discovery finished, used 1918 ms.
+2015-12-22 09:49:38  [ qtp1081769770-26:96469 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:38  [ qtp1081769770-26:96470 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:38  [ qtp1081769770-26:96471 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777718336.
+2015-12-22 09:49:38  [ qtp1081769770-26:97076 ] - [ INFO ]  Retrieved PB records: 126, used 606 ms.
+2015-12-22 09:49:38  [ qtp1081769770-26:97076 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:39  [ qtp1081769770-22:97271 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:39  [ qtp1081769770-22:97272 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:39  [ qtp1081769770-22:97273 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777719138.
+2015-12-22 09:49:39  [ qtp1081769770-26:97598 ] - [ INFO ]  From PB records found 36 links, used 522 ms.
+2015-12-22 09:49:39  [ qtp1081769770-26:97599 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:39  [ qtp1081769770-26:97601 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:39  [ qtp1081769770-26:97602 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:49:39  [ qtp1081769770-26:97602 ] - [ INFO ]  Topology discovery finished, used 1133 ms.
+2015-12-22 09:49:39  [ qtp1081769770-22:97841 ] - [ INFO ]  Retrieved PB records: 126, used 569 ms.
+2015-12-22 09:49:39  [ qtp1081769770-22:97842 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:39  [ qtp1081769770-23:97902 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:39  [ qtp1081769770-23:97903 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:39  [ qtp1081769770-23:97904 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777719769.
+2015-12-22 09:49:40  [ qtp1081769770-22:98286 ] - [ INFO ]  From PB records found 36 links, used 444 ms.
+2015-12-22 09:49:40  [ qtp1081769770-22:98287 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:40  [ qtp1081769770-22:98289 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:40  [ qtp1081769770-22:98290 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:49:40  [ qtp1081769770-22:98291 ] - [ INFO ]  Topology discovery finished, used 1020 ms.
+2015-12-22 09:49:40  [ qtp1081769770-24:98401 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:40  [ qtp1081769770-24:98402 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:40  [ qtp1081769770-24:98404 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777720269.
+2015-12-22 09:49:40  [ qtp1081769770-23:98537 ] - [ INFO ]  Retrieved PB records: 147, used 634 ms.
+2015-12-22 09:49:40  [ qtp1081769770-23:98539 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:40  [ qtp1081769770-24:98950 ] - [ INFO ]  Retrieved PB records: 147, used 548 ms.
+2015-12-22 09:49:40  [ qtp1081769770-24:98951 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:40  [ qtp1081769770-23:98997 ] - [ INFO ]  From PB records found 41 links, used 458 ms.
+2015-12-22 09:49:40  [ qtp1081769770-23:98998 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:40  [ qtp1081769770-22:99007 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:40  [ qtp1081769770-22:99007 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:40  [ qtp1081769770-22:99009 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777720874.
+2015-12-22 09:49:40  [ qtp1081769770-23:99013 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:40  [ qtp1081769770-23:99014 ] - [ INFO ]  Topology Graph constructed, used 16 ms.
+2015-12-22 09:49:40  [ qtp1081769770-23:99014 ] - [ INFO ]  Topology discovery finished, used 1112 ms.
+2015-12-22 09:49:41  [ qtp1081769770-24:99409 ] - [ INFO ]  From PB records found 41 links, used 458 ms.
+2015-12-22 09:49:41  [ qtp1081769770-24:99410 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:41  [ qtp1081769770-24:99412 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:41  [ qtp1081769770-24:99412 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 09:49:41  [ qtp1081769770-24:99413 ] - [ INFO ]  Topology discovery finished, used 1012 ms.
+2015-12-22 09:49:41  [ qtp1081769770-23:99628 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:41  [ qtp1081769770-23:99629 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:41  [ qtp1081769770-22:99629 ] - [ INFO ]  Retrieved PB records: 147, used 622 ms.
+2015-12-22 09:49:41  [ qtp1081769770-22:99630 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:41  [ qtp1081769770-23:99631 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777721496.
+2015-12-22 09:49:41  [ qtp1081769770-22:100124 ] - [ INFO ]  From PB records found 41 links, used 494 ms.
+2015-12-22 09:49:41  [ qtp1081769770-22:100125 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:41  [ qtp1081769770-22:100126 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:41  [ qtp1081769770-22:100127 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 09:49:41  [ qtp1081769770-22:100127 ] - [ INFO ]  Topology discovery finished, used 1120 ms.
+2015-12-22 09:49:42  [ qtp1081769770-19:100187 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:42  [ qtp1081769770-19:100187 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:42  [ qtp1081769770-19:100189 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777722054.
+2015-12-22 09:49:42  [ qtp1081769770-23:100221 ] - [ INFO ]  Retrieved PB records: 147, used 592 ms.
+2015-12-22 09:49:42  [ qtp1081769770-23:100222 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:42  [ qtp1081769770-25:100725 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:42  [ qtp1081769770-25:100729 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:42  [ qtp1081769770-25:100730 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777722595.
+2015-12-22 09:49:42  [ qtp1081769770-23:100741 ] - [ INFO ]  From PB records found 41 links, used 519 ms.
+2015-12-22 09:49:42  [ qtp1081769770-23:100741 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:42  [ qtp1081769770-23:100743 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:42  [ qtp1081769770-23:100743 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 09:49:42  [ qtp1081769770-23:100744 ] - [ INFO ]  Topology discovery finished, used 1116 ms.
+2015-12-22 09:49:42  [ qtp1081769770-19:100777 ] - [ INFO ]  Retrieved PB records: 147, used 590 ms.
+2015-12-22 09:49:42  [ qtp1081769770-19:100778 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:43  [ qtp1081769770-22:101232 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:43  [ qtp1081769770-22:101233 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:43  [ qtp1081769770-22:101234 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777723099.
+2015-12-22 09:49:43  [ qtp1081769770-19:101316 ] - [ INFO ]  From PB records found 41 links, used 537 ms.
+2015-12-22 09:49:43  [ qtp1081769770-19:101316 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:43  [ qtp1081769770-19:101318 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:43  [ qtp1081769770-19:101318 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 09:49:43  [ qtp1081769770-19:101319 ] - [ INFO ]  Topology discovery finished, used 1132 ms.
+2015-12-22 09:49:43  [ qtp1081769770-25:101367 ] - [ INFO ]  Retrieved PB records: 144, used 637 ms.
+2015-12-22 09:49:43  [ qtp1081769770-25:101367 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:43  [ qtp1081769770-22:101760 ] - [ INFO ]  Retrieved PB records: 137, used 527 ms.
+2015-12-22 09:49:43  [ qtp1081769770-22:101761 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:43  [ qtp1081769770-25:101760 ] - [ INFO ]  From PB records found 40 links, used 393 ms.
+2015-12-22 09:49:43  [ qtp1081769770-25:101761 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:43  [ qtp1081769770-25:101763 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:43  [ qtp1081769770-25:101764 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:49:43  [ qtp1081769770-25:101764 ] - [ INFO ]  Topology discovery finished, used 1039 ms.
+2015-12-22 09:49:43  [ qtp1081769770-19:101874 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:49:43  [ qtp1081769770-19:101875 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:49:43  [ qtp1081769770-19:101876 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777723741.
+2015-12-22 09:49:43  [ qtp1081769770-22:102127 ] - [ INFO ]  From PB records found 35 links, used 366 ms.
+2015-12-22 09:49:43  [ qtp1081769770-22:102128 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:43  [ qtp1081769770-22:102129 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:43  [ qtp1081769770-22:102130 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 09:49:43  [ qtp1081769770-22:102130 ] - [ INFO ]  Topology discovery finished, used 898 ms.
+2015-12-22 09:49:44  [ qtp1081769770-19:102394 ] - [ INFO ]  Retrieved PB records: 125, used 519 ms.
+2015-12-22 09:49:44  [ qtp1081769770-19:102394 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:49:44  [ qtp1081769770-19:102695 ] - [ INFO ]  From PB records found 30 links, used 301 ms.
+2015-12-22 09:49:44  [ qtp1081769770-19:102696 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:49:44  [ qtp1081769770-19:102697 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:49:44  [ qtp1081769770-19:102698 ] - [ INFO ]  Topology Graph constructed, used 2 ms.
+2015-12-22 09:49:44  [ qtp1081769770-19:102698 ] - [ INFO ]  Topology discovery finished, used 824 ms.
+2015-12-22 09:53:50  [ qtp1081769770-22:349068 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:50  [ qtp1081769770-22:349069 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:50  [ qtp1081769770-22:349070 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777430935.
+2015-12-22 09:53:51  [ qtp1081769770-24:349906 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:51  [ qtp1081769770-24:349907 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:51  [ qtp1081769770-24:349908 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777431773.
+2015-12-22 09:53:51  [ qtp1081769770-22:350129 ] - [ INFO ]  Retrieved PB records: 497, used 1060 ms.
+2015-12-22 09:53:51  [ qtp1081769770-22:350130 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:52  [ qtp1081769770-20:350408 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:52  [ qtp1081769770-20:350409 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:52  [ qtp1081769770-20:350410 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777432275.
+2015-12-22 09:53:52  [ qtp1081769770-26:350821 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:52  [ qtp1081769770-26:350822 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:52  [ qtp1081769770-26:350823 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777432688.
+2015-12-22 09:53:52  [ qtp1081769770-24:350844 ] - [ INFO ]  Retrieved PB records: 497, used 937 ms.
+2015-12-22 09:53:52  [ qtp1081769770-24:350845 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:53  [ qtp1081769770-19:351255 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:53  [ qtp1081769770-19:351256 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:53  [ qtp1081769770-19:351257 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777433122.
+2015-12-22 09:53:53  [ qtp1081769770-20:351602 ] - [ INFO ]  Retrieved PB records: 497, used 1193 ms.
+2015-12-22 09:53:53  [ qtp1081769770-20:351603 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:53  [ qtp1081769770-31:351685 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:53  [ qtp1081769770-31:351686 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:53  [ qtp1081769770-31:351688 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777433553.
+2015-12-22 09:53:53  [ qtp1081769770-26:352024 ] - [ INFO ]  Retrieved PB records: 497, used 1202 ms.
+2015-12-22 09:53:53  [ qtp1081769770-26:352025 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:53  [ qtp1081769770-30:352070 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:53  [ qtp1081769770-30:352081 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:53  [ qtp1081769770-30:352084 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777433949.
+2015-12-22 09:53:54  [ qtp1081769770-32:352436 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:54  [ qtp1081769770-32:352437 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:54  [ qtp1081769770-32:352441 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777434306.
+2015-12-22 09:53:54  [ qtp1081769770-19:352445 ] - [ INFO ]  Retrieved PB records: 497, used 1189 ms.
+2015-12-22 09:53:54  [ qtp1081769770-19:352446 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:54  [ qtp1081769770-31:352671 ] - [ INFO ]  Retrieved PB records: 497, used 985 ms.
+2015-12-22 09:53:54  [ qtp1081769770-31:352672 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:54  [ qtp1081769770-34:352776 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:54  [ qtp1081769770-34:352776 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:54  [ qtp1081769770-34:352777 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777434642.
+2015-12-22 09:53:55  [ qtp1081769770-35:353144 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:53:55  [ qtp1081769770-35:353145 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:53:55  [ qtp1081769770-35:353149 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777435014.
+2015-12-22 09:53:55  [ qtp1081769770-32:353635 ] - [ INFO ]  Retrieved PB records: 497, used 1198 ms.
+2015-12-22 09:53:55  [ qtp1081769770-32:353636 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:55  [ qtp1081769770-30:353637 ] - [ INFO ]  Retrieved PB records: 497, used 1556 ms.
+2015-12-22 09:53:55  [ qtp1081769770-30:353638 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:55  [ qtp1081769770-34:353877 ] - [ INFO ]  Retrieved PB records: 497, used 1101 ms.
+2015-12-22 09:53:55  [ qtp1081769770-34:353884 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:53:56  [ qtp1081769770-35:354409 ] - [ INFO ]  Retrieved PB records: 497, used 1264 ms.
+2015-12-22 09:53:56  [ qtp1081769770-35:354420 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:54:03  [ qtp1081769770-22:361912 ] - [ INFO ]  From PB records found 153 links, used 11782 ms.
+2015-12-22 09:54:03  [ qtp1081769770-22:361917 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:03  [ qtp1081769770-22:361931 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:03  [ qtp1081769770-22:361932 ] - [ INFO ]  Topology Graph constructed, used 15 ms.
+2015-12-22 09:54:03  [ qtp1081769770-22:361932 ] - [ INFO ]  Topology discovery finished, used 12864 ms.
+2015-12-22 09:54:04  [ qtp1081769770-24:362233 ] - [ INFO ]  From PB records found 153 links, used 11388 ms.
+2015-12-22 09:54:04  [ qtp1081769770-24:362234 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:04  [ qtp1081769770-24:362237 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:04  [ qtp1081769770-24:362237 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:54:04  [ qtp1081769770-24:362238 ] - [ INFO ]  Topology discovery finished, used 12332 ms.
+2015-12-22 09:54:07  [ qtp1081769770-19:365246 ] - [ INFO ]  From PB records found 151 links, used 12800 ms.
+2015-12-22 09:54:07  [ qtp1081769770-19:365247 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-19:365257 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-19:365257 ] - [ INFO ]  Topology Graph constructed, used 10 ms.
+2015-12-22 09:54:07  [ qtp1081769770-19:365258 ] - [ INFO ]  Topology discovery finished, used 14003 ms.
+2015-12-22 09:54:07  [ qtp1081769770-20:365254 ] - [ INFO ]  From PB records found 151 links, used 13651 ms.
+2015-12-22 09:54:07  [ qtp1081769770-20:365269 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-20:365271 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-20:365272 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:54:07  [ qtp1081769770-20:365276 ] - [ INFO ]  Topology discovery finished, used 14868 ms.
+2015-12-22 09:54:07  [ qtp1081769770-31:365490 ] - [ INFO ]  From PB records found 153 links, used 12818 ms.
+2015-12-22 09:54:07  [ qtp1081769770-31:365490 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-31:365493 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-31:365494 ] - [ INFO ]  Topology Graph constructed, used 4 ms.
+2015-12-22 09:54:07  [ qtp1081769770-31:365494 ] - [ INFO ]  Topology discovery finished, used 13809 ms.
+2015-12-22 09:54:07  [ qtp1081769770-26:365545 ] - [ INFO ]  From PB records found 151 links, used 13520 ms.
+2015-12-22 09:54:07  [ qtp1081769770-26:365557 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-26:365573 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-26:365574 ] - [ INFO ]  Topology Graph constructed, used 17 ms.
+2015-12-22 09:54:07  [ qtp1081769770-26:365574 ] - [ INFO ]  Topology discovery finished, used 14753 ms.
+2015-12-22 09:54:07  [ qtp1081769770-32:365830 ] - [ INFO ]  From PB records found 151 links, used 12194 ms.
+2015-12-22 09:54:07  [ qtp1081769770-32:365831 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-32:365834 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-32:365835 ] - [ INFO ]  Topology Graph constructed, used 4 ms.
+2015-12-22 09:54:07  [ qtp1081769770-32:365835 ] - [ INFO ]  Topology discovery finished, used 13399 ms.
+2015-12-22 09:54:07  [ qtp1081769770-34:365929 ] - [ INFO ]  From PB records found 151 links, used 12044 ms.
+2015-12-22 09:54:07  [ qtp1081769770-34:365930 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-34:365932 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-34:365933 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:54:07  [ qtp1081769770-34:365933 ] - [ INFO ]  Topology discovery finished, used 13157 ms.
+2015-12-22 09:54:07  [ qtp1081769770-30:366095 ] - [ INFO ]  From PB records found 151 links, used 12457 ms.
+2015-12-22 09:54:07  [ qtp1081769770-30:366096 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:07  [ qtp1081769770-30:366098 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:07  [ qtp1081769770-30:366099 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:54:07  [ qtp1081769770-30:366099 ] - [ INFO ]  Topology discovery finished, used 14029 ms.
+2015-12-22 09:54:08  [ qtp1081769770-35:366215 ] - [ INFO ]  From PB records found 151 links, used 11795 ms.
+2015-12-22 09:54:08  [ qtp1081769770-35:366216 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:54:08  [ qtp1081769770-35:366218 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:54:08  [ qtp1081769770-35:366219 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:54:08  [ qtp1081769770-35:366219 ] - [ INFO ]  Topology discovery finished, used 13075 ms.
+2015-12-22 09:54:56  [ qtp1081769770-32:414500 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:56  [ qtp1081769770-32:414501 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:56  [ qtp1081769770-32:414502 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777496367.
+2015-12-22 09:54:56  [ qtp1081769770-36:415012 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:56  [ qtp1081769770-36:415013 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:56  [ qtp1081769770-36:415014 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777496879.
+2015-12-22 09:54:57  [ qtp1081769770-37:415323 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:57  [ qtp1081769770-37:415323 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:57  [ qtp1081769770-37:415324 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777497189.
+2015-12-22 09:54:57  [ qtp1081769770-32:415331 ] - [ INFO ]  Retrieved PB records: 498, used 830 ms.
+2015-12-22 09:54:57  [ qtp1081769770-32:415332 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:54:57  [ qtp1081769770-36:415775 ] - [ INFO ]  Retrieved PB records: 498, used 762 ms.
+2015-12-22 09:54:57  [ qtp1081769770-36:415776 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:54:58  [ qtp1081769770-37:416234 ] - [ INFO ]  Retrieved PB records: 498, used 911 ms.
+2015-12-22 09:54:58  [ qtp1081769770-37:416235 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:54:58  [ qtp1081769770-31:416450 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:58  [ qtp1081769770-31:416451 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:58  [ qtp1081769770-31:416455 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777498320.
+2015-12-22 09:54:58  [ qtp1081769770-34:416852 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:58  [ qtp1081769770-34:416853 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:58  [ qtp1081769770-34:416868 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777498733.
+2015-12-22 09:54:59  [ qtp1081769770-22:417213 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:59  [ qtp1081769770-22:417213 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:59  [ qtp1081769770-22:417214 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777499079.
+2015-12-22 09:54:59  [ qtp1081769770-31:417460 ] - [ INFO ]  Retrieved PB records: 498, used 1008 ms.
+2015-12-22 09:54:59  [ qtp1081769770-31:417461 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:54:59  [ qtp1081769770-35:417566 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:59  [ qtp1081769770-35:417570 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:59  [ qtp1081769770-35:417572 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777499437.
+2015-12-22 09:54:59  [ qtp1081769770-34:417896 ] - [ INFO ]  Retrieved PB records: 498, used 1043 ms.
+2015-12-22 09:54:59  [ qtp1081769770-34:417905 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:54:59  [ qtp1081769770-24:417918 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:54:59  [ qtp1081769770-24:417919 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:54:59  [ qtp1081769770-24:417928 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777499793.
+2015-12-22 09:55:00  [ qtp1081769770-19:418140 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:00  [ qtp1081769770-19:418142 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:00  [ qtp1081769770-19:418145 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777500010.
+2015-12-22 09:55:00  [ qtp1081769770-22:418235 ] - [ INFO ]  Retrieved PB records: 498, used 1022 ms.
+2015-12-22 09:55:00  [ qtp1081769770-22:418236 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:00  [ qtp1081769770-30:418382 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:00  [ qtp1081769770-30:418383 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:00  [ qtp1081769770-30:418390 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777500255.
+2015-12-22 09:55:00  [ qtp1081769770-35:418600 ] - [ INFO ]  Retrieved PB records: 498, used 1030 ms.
+2015-12-22 09:55:00  [ qtp1081769770-35:418601 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:00  [ qtp1081769770-20:418700 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:00  [ qtp1081769770-20:418701 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:00  [ qtp1081769770-20:418703 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777500568.
+2015-12-22 09:55:00  [ qtp1081769770-38:419089 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:00  [ qtp1081769770-38:419089 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:00  [ qtp1081769770-38:419090 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777500955.
+2015-12-22 09:55:01  [ qtp1081769770-19:419180 ] - [ INFO ]  Retrieved PB records: 498, used 1038 ms.
+2015-12-22 09:55:01  [ qtp1081769770-19:419209 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:01  [ qtp1081769770-24:419181 ] - [ INFO ]  Retrieved PB records: 498, used 1262 ms.
+2015-12-22 09:55:01  [ qtp1081769770-24:419210 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:01  [ qtp1081769770-40:419235 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:01  [ qtp1081769770-40:419236 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:01  [ qtp1081769770-40:419237 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777501102.
+2015-12-22 09:55:01  [ qtp1081769770-26:419582 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:01  [ qtp1081769770-26:419583 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:01  [ qtp1081769770-26:419584 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777501449.
+2015-12-22 09:55:01  [ qtp1081769770-30:419691 ] - [ INFO ]  Retrieved PB records: 498, used 1308 ms.
+2015-12-22 09:55:01  [ qtp1081769770-30:419723 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:01  [ qtp1081769770-33:419828 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:01  [ qtp1081769770-33:419829 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:01  [ qtp1081769770-33:419830 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777501695.
+2015-12-22 09:55:01  [ qtp1081769770-20:420008 ] - [ INFO ]  Retrieved PB records: 498, used 1307 ms.
+2015-12-22 09:55:01  [ qtp1081769770-20:420025 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:01  [ qtp1081769770-38:420106 ] - [ INFO ]  Retrieved PB records: 498, used 1017 ms.
+2015-12-22 09:55:01  [ qtp1081769770-38:420107 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:02  [ qtp1081769770-42:420162 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:02  [ qtp1081769770-42:420162 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:02  [ qtp1081769770-42:420165 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777502030.
+2015-12-22 09:55:02  [ qtp1081769770-40:420321 ] - [ INFO ]  Retrieved PB records: 498, used 1085 ms.
+2015-12-22 09:55:02  [ qtp1081769770-40:420328 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:02  [ qtp1081769770-43:420433 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:02  [ qtp1081769770-43:420447 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:02  [ qtp1081769770-43:420452 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777502317.
+2015-12-22 09:55:02  [ qtp1081769770-41:420742 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:02  [ qtp1081769770-41:420742 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:02  [ qtp1081769770-41:420743 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777502608.
+2015-12-22 09:55:02  [ qtp1081769770-26:420821 ] - [ INFO ]  Retrieved PB records: 498, used 1238 ms.
+2015-12-22 09:55:02  [ qtp1081769770-26:420821 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:02  [ qtp1081769770-44:420969 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:02  [ qtp1081769770-44:420976 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:02  [ qtp1081769770-44:420978 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777502843.
+2015-12-22 09:55:03  [ qtp1081769770-33:421311 ] - [ INFO ]  Retrieved PB records: 498, used 1482 ms.
+2015-12-22 09:55:03  [ qtp1081769770-33:421348 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:03  [ qtp1081769770-39:421394 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:03  [ qtp1081769770-39:421395 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:03  [ qtp1081769770-39:421396 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777503261.
+2015-12-22 09:55:03  [ qtp1081769770-46:421612 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:03  [ qtp1081769770-46:421627 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:03  [ qtp1081769770-46:421638 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777503503.
+2015-12-22 09:55:03  [ qtp1081769770-42:421636 ] - [ INFO ]  Retrieved PB records: 498, used 1474 ms.
+2015-12-22 09:55:03  [ qtp1081769770-42:421640 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:03  [ qtp1081769770-43:421642 ] - [ INFO ]  Retrieved PB records: 498, used 1195 ms.
+2015-12-22 09:55:03  [ qtp1081769770-43:421642 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:03  [ qtp1081769770-47:421846 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:03  [ qtp1081769770-47:421853 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:03  [ qtp1081769770-47:421854 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777503719.
+2015-12-22 09:55:04  [ qtp1081769770-41:422205 ] - [ INFO ]  Retrieved PB records: 498, used 1463 ms.
+2015-12-22 09:55:04  [ qtp1081769770-41:422256 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:04  [ qtp1081769770-45:422298 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:04  [ qtp1081769770-45:422298 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:04  [ qtp1081769770-45:422301 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777504166.
+2015-12-22 09:55:04  [ qtp1081769770-44:422372 ] - [ INFO ]  Retrieved PB records: 498, used 1396 ms.
+2015-12-22 09:55:04  [ qtp1081769770-44:422393 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:04  [ qtp1081769770-39:422530 ] - [ INFO ]  Retrieved PB records: 498, used 1135 ms.
+2015-12-22 09:55:04  [ qtp1081769770-39:422531 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:04  [ qtp1081769770-50:422646 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:04  [ qtp1081769770-50:422664 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:04  [ qtp1081769770-50:422672 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777504537.
+2015-12-22 09:55:04  [ qtp1081769770-49:422769 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:04  [ qtp1081769770-49:422770 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:04  [ qtp1081769770-49:422771 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777504636.
+2015-12-22 09:55:04  [ qtp1081769770-51:423070 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:04  [ qtp1081769770-51:423072 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:04  [ qtp1081769770-51:423081 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777504946.
+2015-12-22 09:55:05  [ qtp1081769770-52:423326 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:05  [ qtp1081769770-52:423326 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:05  [ qtp1081769770-52:423328 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777505192.
+2015-12-22 09:55:05  [ qtp1081769770-46:423335 ] - [ INFO ]  Retrieved PB records: 498, used 1708 ms.
+2015-12-22 09:55:05  [ qtp1081769770-46:423352 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:05  [ qtp1081769770-47:423423 ] - [ INFO ]  Retrieved PB records: 498, used 1570 ms.
+2015-12-22 09:55:05  [ qtp1081769770-47:423424 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:05  [ qtp1081769770-53:423819 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:05  [ qtp1081769770-53:423822 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:05  [ qtp1081769770-53:423823 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777505688.
+2015-12-22 09:55:05  [ qtp1081769770-45:424087 ] - [ INFO ]  Retrieved PB records: 498, used 1789 ms.
+2015-12-22 09:55:05  [ qtp1081769770-45:424087 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:06  [ qtp1081769770-48:424163 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:06  [ qtp1081769770-48:424166 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:06  [ qtp1081769770-48:424167 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777506032.
+2015-12-22 09:55:06  [ qtp1081769770-54:424433 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:06  [ qtp1081769770-54:424436 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:06  [ qtp1081769770-54:424439 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777506304.
+2015-12-22 09:55:06  [ qtp1081769770-50:424532 ] - [ INFO ]  Retrieved PB records: 498, used 1868 ms.
+2015-12-22 09:55:06  [ qtp1081769770-50:424564 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:06  [ qtp1081769770-49:424607 ] - [ INFO ]  Retrieved PB records: 498, used 1837 ms.
+2015-12-22 09:55:06  [ qtp1081769770-49:424608 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:06  [ qtp1081769770-57:424760 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:06  [ qtp1081769770-57:424761 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:06  [ qtp1081769770-57:424763 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777506628.
+2015-12-22 09:55:06  [ qtp1081769770-51:424816 ] - [ INFO ]  Retrieved PB records: 498, used 1744 ms.
+2015-12-22 09:55:06  [ qtp1081769770-51:424840 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:06  [ qtp1081769770-56:424999 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:06  [ qtp1081769770-56:424999 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:06  [ qtp1081769770-56:425002 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777506867.
+2015-12-22 09:55:06  [ qtp1081769770-52:425038 ] - [ INFO ]  Retrieved PB records: 498, used 1712 ms.
+2015-12-22 09:55:06  [ qtp1081769770-52:425060 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:07  [ qtp1081769770-59:425248 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:07  [ qtp1081769770-59:425252 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:07  [ qtp1081769770-59:425258 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777507123.
+2015-12-22 09:55:07  [ qtp1081769770-58:425530 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:07  [ qtp1081769770-58:425531 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:07  [ qtp1081769770-58:425533 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777507398.
+2015-12-22 09:55:07  [ qtp1081769770-53:425995 ] - [ INFO ]  Retrieved PB records: 498, used 2173 ms.
+2015-12-22 09:55:07  [ qtp1081769770-53:425997 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:07  [ qtp1081769770-61:426053 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:07  [ qtp1081769770-61:426058 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:07  [ qtp1081769770-61:426082 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777507947.
+2015-12-22 09:55:07  [ qtp1081769770-60:426108 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:07  [ qtp1081769770-60:426109 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:07  [ qtp1081769770-60:426110 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777507975.
+2015-12-22 09:55:08  [ qtp1081769770-48:426333 ] - [ INFO ]  Retrieved PB records: 498, used 2167 ms.
+2015-12-22 09:55:08  [ qtp1081769770-48:426334 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:08  [ qtp1081769770-62:426425 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:08  [ qtp1081769770-62:426426 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:08  [ qtp1081769770-62:426427 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777508292.
+2015-12-22 09:55:08  [ qtp1081769770-54:426439 ] - [ INFO ]  Retrieved PB records: 497, used 2003 ms.
+2015-12-22 09:55:08  [ qtp1081769770-54:426439 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:08  [ qtp1081769770-55:426703 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:08  [ qtp1081769770-55:426704 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:08  [ qtp1081769770-55:426706 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777508570.
+2015-12-22 09:55:08  [ qtp1081769770-57:426913 ] - [ INFO ]  Retrieved PB records: 498, used 2153 ms.
+2015-12-22 09:55:08  [ qtp1081769770-57:426914 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:09  [ qtp1081769770-64:427139 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:09  [ qtp1081769770-64:427139 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:09  [ qtp1081769770-64:427185 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777509050.
+2015-12-22 09:55:09  [ qtp1081769770-65:427324 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:09  [ qtp1081769770-65:427326 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:09  [ qtp1081769770-65:427328 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777509193.
+2015-12-22 09:55:09  [ qtp1081769770-59:427497 ] - [ INFO ]  Retrieved PB records: 498, used 2245 ms.
+2015-12-22 09:55:09  [ qtp1081769770-59:427504 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:09  [ qtp1081769770-63:427641 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:09  [ qtp1081769770-63:427642 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:09  [ qtp1081769770-63:427643 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777509508.
+2015-12-22 09:55:09  [ qtp1081769770-56:427719 ] - [ INFO ]  Retrieved PB records: 497, used 2720 ms.
+2015-12-22 09:55:09  [ qtp1081769770-56:427719 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:09  [ qtp1081769770-66:427936 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:09  [ qtp1081769770-66:427938 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:09  [ qtp1081769770-66:427940 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777509805.
+2015-12-22 09:55:09  [ qtp1081769770-61:427948 ] - [ INFO ]  Retrieved PB records: 498, used 1890 ms.
+2015-12-22 09:55:09  [ qtp1081769770-61:428069 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:10  [ qtp1081769770-67:428227 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:10  [ qtp1081769770-67:428228 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:10  [ qtp1081769770-67:428229 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777510094.
+2015-12-22 09:55:10  [ qtp1081769770-58:428237 ] - [ INFO ]  Retrieved PB records: 497, used 2706 ms.
+2015-12-22 09:55:10  [ qtp1081769770-58:428238 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:10  [ qtp1081769770-68:428619 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:10  [ qtp1081769770-68:428660 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:10  [ qtp1081769770-68:428665 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777510530.
+2015-12-22 09:55:10  [ qtp1081769770-60:428693 ] - [ INFO ]  Retrieved PB records: 498, used 2584 ms.
+2015-12-22 09:55:10  [ qtp1081769770-60:428694 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:10  [ qtp1081769770-71:429000 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:10  [ qtp1081769770-71:429004 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:10  [ qtp1081769770-71:429005 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777510870.
+2015-12-22 09:55:10  [ qtp1081769770-70:429091 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:10  [ qtp1081769770-70:429097 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:10  [ qtp1081769770-70:429098 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777510963.
+2015-12-22 09:55:11  [ qtp1081769770-62:429298 ] - [ INFO ]  Retrieved PB records: 498, used 2872 ms.
+2015-12-22 09:55:11  [ qtp1081769770-62:429298 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:11  [ qtp1081769770-55:429341 ] - [ INFO ]  Retrieved PB records: 498, used 2637 ms.
+2015-12-22 09:55:11  [ qtp1081769770-55:429342 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:11  [ qtp1081769770-69:429437 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:11  [ qtp1081769770-69:429438 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:11  [ qtp1081769770-69:429438 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777511303.
+2015-12-22 09:55:11  [ qtp1081769770-64:429682 ] - [ INFO ]  Retrieved PB records: 497, used 2543 ms.
+2015-12-22 09:55:11  [ qtp1081769770-64:429713 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:11  [ qtp1081769770-74:429994 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:11  [ qtp1081769770-74:429995 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:11  [ qtp1081769770-74:429996 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777511861.
+2015-12-22 09:55:11  [ qtp1081769770-73:430047 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:11  [ qtp1081769770-73:430048 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:12  [ qtp1081769770-73:430153 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777512018.
+2015-12-22 09:55:12  [ qtp1081769770-72:430307 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:12  [ qtp1081769770-72:430308 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:12  [ qtp1081769770-72:430309 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777512174.
+2015-12-22 09:55:12  [ qtp1081769770-65:430367 ] - [ INFO ]  Retrieved PB records: 497, used 3041 ms.
+2015-12-22 09:55:12  [ qtp1081769770-65:430367 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:12  [ qtp1081769770-67:430586 ] - [ INFO ]  Retrieved PB records: 497, used 2358 ms.
+2015-12-22 09:55:12  [ qtp1081769770-67:430596 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:12  [ qtp1081769770-76:430664 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:12  [ qtp1081769770-76:430665 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:12  [ qtp1081769770-76:430666 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777512531.
+2015-12-22 09:55:12  [ qtp1081769770-77:430971 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:12  [ qtp1081769770-77:430976 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:12  [ qtp1081769770-77:430977 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777512842.
+2015-12-22 09:55:12  [ qtp1081769770-63:431050 ] - [ INFO ]  Retrieved PB records: 497, used 3408 ms.
+2015-12-22 09:55:12  [ qtp1081769770-63:431051 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:13  [ qtp1081769770-75:431299 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:13  [ qtp1081769770-75:431300 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:13  [ qtp1081769770-75:431301 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777513166.
+2015-12-22 09:55:13  [ qtp1081769770-66:431338 ] - [ INFO ]  Retrieved PB records: 497, used 3400 ms.
+2015-12-22 09:55:13  [ qtp1081769770-66:431339 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:13  [ qtp1081769770-70:431814 ] - [ INFO ]  Retrieved PB records: 497, used 2717 ms.
+2015-12-22 09:55:13  [ qtp1081769770-70:431814 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:13  [ qtp1081769770-69:432007 ] - [ INFO ]  Retrieved PB records: 497, used 2569 ms.
+2015-12-22 09:55:13  [ qtp1081769770-69:432009 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:14  [ qtp1081769770-68:432137 ] - [ INFO ]  Retrieved PB records: 497, used 3477 ms.
+2015-12-22 09:55:14  [ qtp1081769770-68:432138 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:14  [ qtp1081769770-71:432385 ] - [ INFO ]  Retrieved PB records: 497, used 3381 ms.
+2015-12-22 09:55:14  [ qtp1081769770-71:432413 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:14  [ qtp1081769770-78:432463 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:14  [ qtp1081769770-78:432464 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:14  [ qtp1081769770-78:432465 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777514330.
+2015-12-22 09:55:14  [ qtp1081769770-79:432528 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:14  [ qtp1081769770-79:432531 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:14  [ qtp1081769770-79:432533 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777514398.
+2015-12-22 09:55:14  [ qtp1081769770-80:432774 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:14  [ qtp1081769770-80:432777 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:14  [ qtp1081769770-80:432778 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777514643.
+2015-12-22 09:55:14  [ qtp1081769770-82:432861 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:14  [ qtp1081769770-82:432862 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:14  [ qtp1081769770-82:432863 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777514728.
+2015-12-22 09:55:14  [ qtp1081769770-81:433113 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:14  [ qtp1081769770-81:433114 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:14  [ qtp1081769770-81:433122 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777514987.
+2015-12-22 09:55:15  [ qtp1081769770-72:433438 ] - [ INFO ]  Retrieved PB records: 497, used 3130 ms.
+2015-12-22 09:55:15  [ qtp1081769770-72:433474 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:15  [ qtp1081769770-73:433486 ] - [ INFO ]  Retrieved PB records: 497, used 3438 ms.
+2015-12-22 09:55:15  [ qtp1081769770-73:433487 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:15  [ qtp1081769770-74:433566 ] - [ INFO ]  Retrieved PB records: 497, used 3571 ms.
+2015-12-22 09:55:15  [ qtp1081769770-74:433582 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:15  [ qtp1081769770-76:433667 ] - [ INFO ]  Retrieved PB records: 497, used 3002 ms.
+2015-12-22 09:55:15  [ qtp1081769770-76:433708 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:15  [ qtp1081769770-83:433735 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:15  [ qtp1081769770-83:433738 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:15  [ qtp1081769770-83:433739 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777515604.
+2015-12-22 09:55:15  [ qtp1081769770-85:433922 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:15  [ qtp1081769770-85:433968 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:15  [ qtp1081769770-85:433981 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777515846.
+2015-12-22 09:55:15  [ qtp1081769770-75:434079 ] - [ INFO ]  Retrieved PB records: 497, used 2779 ms.
+2015-12-22 09:55:15  [ qtp1081769770-75:434128 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:16  [ qtp1081769770-84:434150 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:16  [ qtp1081769770-84:434150 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:16  [ qtp1081769770-84:434151 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777516016.
+2015-12-22 09:55:16  [ qtp1081769770-77:434194 ] - [ INFO ]  Retrieved PB records: 497, used 3218 ms.
+2015-12-22 09:55:16  [ qtp1081769770-77:434384 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:16  [ qtp1081769770-86:434398 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:16  [ qtp1081769770-86:434398 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:16  [ qtp1081769770-86:434413 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777516278.
+2015-12-22 09:55:16  [ qtp1081769770-88:434675 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:16  [ qtp1081769770-88:434675 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:16  [ qtp1081769770-88:434676 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777516541.
+2015-12-22 09:55:16  [ qtp1081769770-89:434969 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:16  [ qtp1081769770-89:434970 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:16  [ qtp1081769770-89:434971 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777516836.
+2015-12-22 09:55:17  [ qtp1081769770-87:435262 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:17  [ qtp1081769770-87:435266 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:17  [ qtp1081769770-87:435268 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777517133.
+2015-12-22 09:55:17  [ qtp1081769770-78:435478 ] - [ INFO ]  Retrieved PB records: 497, used 3014 ms.
+2015-12-22 09:55:17  [ qtp1081769770-78:435524 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:17  [ qtp1081769770-90:435571 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:17  [ qtp1081769770-90:435571 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:17  [ qtp1081769770-90:435632 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777517497.
+2015-12-22 09:55:17  [ qtp1081769770-79:435736 ] - [ INFO ]  Retrieved PB records: 497, used 3205 ms.
+2015-12-22 09:55:17  [ qtp1081769770-79:435810 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:17  [ qtp1081769770-93:435957 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:17  [ qtp1081769770-93:435957 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:17  [ qtp1081769770-93:435958 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777517823.
+2015-12-22 09:55:17  [ qtp1081769770-82:435990 ] - [ INFO ]  Retrieved PB records: 497, used 3128 ms.
+2015-12-22 09:55:17  [ qtp1081769770-82:436008 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:18  [ qtp1081769770-92:436204 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:18  [ qtp1081769770-92:436259 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:18  [ qtp1081769770-92:436260 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777518125.
+2015-12-22 09:55:18  [ qtp1081769770-94:436573 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:55:18  [ qtp1081769770-94:436574 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:55:18  [ qtp1081769770-94:436574 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450777518439.
+2015-12-22 09:55:18  [ qtp1081769770-80:436762 ] - [ INFO ]  Retrieved PB records: 497, used 3985 ms.
+2015-12-22 09:55:18  [ qtp1081769770-80:436763 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:18  [ qtp1081769770-81:436983 ] - [ INFO ]  Retrieved PB records: 497, used 3869 ms.
+2015-12-22 09:55:18  [ qtp1081769770-81:436983 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:19  [ qtp1081769770-83:437327 ] - [ INFO ]  Retrieved PB records: 497, used 3589 ms.
+2015-12-22 09:55:19  [ qtp1081769770-83:437396 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:19  [ qtp1081769770-85:437532 ] - [ INFO ]  Retrieved PB records: 497, used 3564 ms.
+2015-12-22 09:55:19  [ qtp1081769770-85:437554 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:19  [ qtp1081769770-86:437658 ] - [ INFO ]  Retrieved PB records: 497, used 3260 ms.
+2015-12-22 09:55:19  [ qtp1081769770-86:437659 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:20  [ qtp1081769770-88:438176 ] - [ INFO ]  Retrieved PB records: 497, used 3501 ms.
+2015-12-22 09:55:20  [ qtp1081769770-88:438253 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:20  [ qtp1081769770-84:438373 ] - [ INFO ]  Retrieved PB records: 497, used 4223 ms.
+2015-12-22 09:55:20  [ qtp1081769770-84:438374 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:20  [ qtp1081769770-87:438875 ] - [ INFO ]  Retrieved PB records: 497, used 3609 ms.
+2015-12-22 09:55:20  [ qtp1081769770-87:438924 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:20  [ qtp1081769770-89:438886 ] - [ INFO ]  Retrieved PB records: 497, used 3916 ms.
+2015-12-22 09:55:20  [ qtp1081769770-89:438945 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:21  [ qtp1081769770-90:439830 ] - [ INFO ]  Retrieved PB records: 497, used 4259 ms.
+2015-12-22 09:55:21  [ qtp1081769770-90:439830 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:21  [ qtp1081769770-92:439966 ] - [ INFO ]  Retrieved PB records: 497, used 3707 ms.
+2015-12-22 09:55:21  [ qtp1081769770-92:440028 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:21  [ qtp1081769770-93:440058 ] - [ INFO ]  Retrieved PB records: 497, used 4100 ms.
+2015-12-22 09:55:21  [ qtp1081769770-93:440058 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:23  [ qtp1081769770-94:441537 ] - [ INFO ]  Retrieved PB records: 497, used 4963 ms.
+2015-12-22 09:55:23  [ qtp1081769770-94:441538 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:55:24  [ qtp1081769770-32:442401 ] - [ INFO ]  From PB records found 154 links, used 27069 ms.
+2015-12-22 09:55:24  [ qtp1081769770-32:442428 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:55:24  [ qtp1081769770-32:442435 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:55:24  [ qtp1081769770-32:442498 ] - [ INFO ]  Topology Graph constructed, used 70 ms.
+2015-12-22 09:55:24  [ qtp1081769770-32:442516 ] - [ INFO ]  Topology discovery finished, used 28016 ms.
+2015-12-22 09:55:29  [ qtp1081769770-36:447505 ] - [ INFO ]  From PB records found 154 links, used 31729 ms.
+2015-12-22 09:55:29  [ qtp1081769770-36:447505 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:55:29  [ qtp1081769770-36:447524 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:55:29  [ qtp1081769770-36:447525 ] - [ INFO ]  Topology Graph constructed, used 20 ms.
+2015-12-22 09:55:29  [ qtp1081769770-36:447525 ] - [ INFO ]  Topology discovery finished, used 32513 ms.
+2015-12-22 09:55:39  [ qtp1081769770-37:457285 ] - [ INFO ]  From PB records found 154 links, used 41050 ms.
+2015-12-22 09:55:39  [ qtp1081769770-37:457285 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:55:39  [ qtp1081769770-37:457350 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:55:39  [ qtp1081769770-37:457353 ] - [ INFO ]  Topology Graph constructed, used 68 ms.
+2015-12-22 09:55:39  [ qtp1081769770-37:457354 ] - [ INFO ]  Topology discovery finished, used 42031 ms.
+2015-12-22 09:56:01  [ qtp1081769770-31:479626 ] - [ INFO ]  From PB records found 150 links, used 62165 ms.
+2015-12-22 09:56:01  [ qtp1081769770-31:479681 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:01  [ qtp1081769770-31:479695 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:01  [ qtp1081769770-31:479956 ] - [ INFO ]  Topology Graph constructed, used 275 ms.
+2015-12-22 09:56:01  [ qtp1081769770-31:479957 ] - [ INFO ]  Topology discovery finished, used 63507 ms.
+2015-12-22 09:56:06  [ qtp1081769770-22:484483 ] - [ INFO ]  From PB records found 150 links, used 66247 ms.
+2015-12-22 09:56:06  [ qtp1081769770-22:484484 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:06  [ qtp1081769770-22:484540 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:06  [ qtp1081769770-22:484620 ] - [ INFO ]  Topology Graph constructed, used 136 ms.
+2015-12-22 09:56:06  [ qtp1081769770-22:484621 ] - [ INFO ]  Topology discovery finished, used 67408 ms.
+2015-12-22 09:56:07  [ qtp1081769770-34:485226 ] - [ INFO ]  From PB records found 150 links, used 67321 ms.
+2015-12-22 09:56:07  [ qtp1081769770-34:485227 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:07  [ qtp1081769770-34:485255 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:07  [ qtp1081769770-34:485256 ] - [ INFO ]  Topology Graph constructed, used 29 ms.
+2015-12-22 09:56:07  [ qtp1081769770-34:485264 ] - [ INFO ]  Topology discovery finished, used 68412 ms.
+2015-12-22 09:56:07  [ qtp1081769770-35:485459 ] - [ INFO ]  From PB records found 155 links, used 66858 ms.
+2015-12-22 09:56:07  [ qtp1081769770-35:485674 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:07  [ qtp1081769770-35:485698 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:07  [ qtp1081769770-35:485699 ] - [ INFO ]  Topology Graph constructed, used 25 ms.
+2015-12-22 09:56:07  [ qtp1081769770-35:485699 ] - [ INFO ]  Topology discovery finished, used 68133 ms.
+2015-12-22 09:56:12  [ qtp1081769770-19:490854 ] - [ INFO ]  From PB records found 154 links, used 71645 ms.
+2015-12-22 09:56:12  [ qtp1081769770-19:490890 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:12  [ qtp1081769770-19:490934 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:12  [ qtp1081769770-19:490990 ] - [ INFO ]  Topology Graph constructed, used 100 ms.
+2015-12-22 09:56:12  [ qtp1081769770-19:491008 ] - [ INFO ]  Topology discovery finished, used 72868 ms.
+2015-12-22 09:56:16  [ qtp1081769770-20:494787 ] - [ INFO ]  From PB records found 154 links, used 74762 ms.
+2015-12-22 09:56:16  [ qtp1081769770-20:494836 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:16  [ qtp1081769770-20:494839 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:16  [ qtp1081769770-20:494876 ] - [ INFO ]  Topology Graph constructed, used 40 ms.
+2015-12-22 09:56:16  [ qtp1081769770-20:494880 ] - [ INFO ]  Topology discovery finished, used 76180 ms.
+2015-12-22 09:56:17  [ qtp1081769770-24:495230 ] - [ INFO ]  From PB records found 155 links, used 76020 ms.
+2015-12-22 09:56:17  [ qtp1081769770-24:495231 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:17  [ qtp1081769770-24:495305 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:17  [ qtp1081769770-24:495306 ] - [ INFO ]  Topology Graph constructed, used 75 ms.
+2015-12-22 09:56:17  [ qtp1081769770-24:495306 ] - [ INFO ]  Topology discovery finished, used 77388 ms.
+2015-12-22 09:56:17  [ qtp1081769770-30:495669 ] - [ INFO ]  From PB records found 155 links, used 75946 ms.
+2015-12-22 09:56:17  [ qtp1081769770-30:495669 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:17  [ qtp1081769770-30:495672 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:17  [ qtp1081769770-30:495688 ] - [ INFO ]  Topology Graph constructed, used 19 ms.
+2015-12-22 09:56:17  [ qtp1081769770-30:495689 ] - [ INFO ]  Topology discovery finished, used 77307 ms.
+2015-12-22 09:56:18  [ qtp1081769770-38:497029 ] - [ INFO ]  From PB records found 155 links, used 76922 ms.
+2015-12-22 09:56:18  [ qtp1081769770-38:497069 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:18  [ qtp1081769770-38:497074 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:18  [ qtp1081769770-38:497121 ] - [ INFO ]  Topology Graph constructed, used 52 ms.
+2015-12-22 09:56:18  [ qtp1081769770-38:497132 ] - [ INFO ]  Topology discovery finished, used 78043 ms.
+2015-12-22 09:56:20  [ qtp1081769770-40:498549 ] - [ INFO ]  From PB records found 155 links, used 78221 ms.
+2015-12-22 09:56:20  [ qtp1081769770-40:498550 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:20  [ qtp1081769770-40:498604 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:20  [ qtp1081769770-40:498613 ] - [ INFO ]  Topology Graph constructed, used 63 ms.
+2015-12-22 09:56:20  [ qtp1081769770-40:498613 ] - [ INFO ]  Topology discovery finished, used 79378 ms.
+2015-12-22 09:56:20  [ qtp1081769770-26:498738 ] - [ INFO ]  From PB records found 155 links, used 77917 ms.
+2015-12-22 09:56:20  [ qtp1081769770-26:498764 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:20  [ qtp1081769770-26:498779 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:20  [ qtp1081769770-26:498828 ] - [ INFO ]  Topology Graph constructed, used 64 ms.
+2015-12-22 09:56:20  [ qtp1081769770-26:498832 ] - [ INFO ]  Topology discovery finished, used 79250 ms.
+2015-12-22 09:56:22  [ qtp1081769770-43:500989 ] - [ INFO ]  From PB records found 155 links, used 79347 ms.
+2015-12-22 09:56:22  [ qtp1081769770-43:500990 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:22  [ qtp1081769770-43:501017 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:22  [ qtp1081769770-43:501052 ] - [ INFO ]  Topology Graph constructed, used 62 ms.
+2015-12-22 09:56:22  [ qtp1081769770-43:501060 ] - [ INFO ]  Topology discovery finished, used 80627 ms.
+2015-12-22 09:56:24  [ qtp1081769770-33:502997 ] - [ INFO ]  From PB records found 155 links, used 81649 ms.
+2015-12-22 09:56:24  [ qtp1081769770-33:503004 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:24  [ qtp1081769770-33:503007 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:24  [ qtp1081769770-33:503016 ] - [ INFO ]  Topology Graph constructed, used 12 ms.
+2015-12-22 09:56:24  [ qtp1081769770-33:503020 ] - [ INFO ]  Topology discovery finished, used 83192 ms.
+2015-12-22 09:56:25  [ qtp1081769770-42:503798 ] - [ INFO ]  From PB records found 155 links, used 82158 ms.
+2015-12-22 09:56:25  [ qtp1081769770-42:503799 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:25  [ qtp1081769770-42:503802 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:25  [ qtp1081769770-42:503812 ] - [ INFO ]  Topology Graph constructed, used 13 ms.
+2015-12-22 09:56:25  [ qtp1081769770-42:503840 ] - [ INFO ]  Topology discovery finished, used 83678 ms.
+2015-12-22 09:56:25  [ qtp1081769770-44:503944 ] - [ INFO ]  From PB records found 155 links, used 81551 ms.
+2015-12-22 09:56:25  [ qtp1081769770-44:503945 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:25  [ qtp1081769770-44:503947 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:25  [ qtp1081769770-44:503948 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:25  [ qtp1081769770-44:503952 ] - [ INFO ]  Topology discovery finished, used 82983 ms.
+2015-12-22 09:56:27  [ qtp1081769770-41:505346 ] - [ INFO ]  From PB records found 155 links, used 83090 ms.
+2015-12-22 09:56:27  [ qtp1081769770-41:505368 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:27  [ qtp1081769770-41:505374 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:27  [ qtp1081769770-41:505418 ] - [ INFO ]  Topology Graph constructed, used 50 ms.
+2015-12-22 09:56:27  [ qtp1081769770-41:505440 ] - [ INFO ]  Topology discovery finished, used 84698 ms.
+2015-12-22 09:56:27  [ qtp1081769770-47:506082 ] - [ INFO ]  From PB records found 155 links, used 82658 ms.
+2015-12-22 09:56:27  [ qtp1081769770-47:506083 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:27  [ qtp1081769770-47:506114 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:27  [ qtp1081769770-47:506115 ] - [ INFO ]  Topology Graph constructed, used 32 ms.
+2015-12-22 09:56:27  [ qtp1081769770-47:506115 ] - [ INFO ]  Topology discovery finished, used 84269 ms.
+2015-12-22 09:56:28  [ qtp1081769770-50:506784 ] - [ INFO ]  From PB records found 153 links, used 82219 ms.
+2015-12-22 09:56:28  [ qtp1081769770-50:506810 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:28  [ qtp1081769770-50:506823 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:28  [ qtp1081769770-50:506823 ] - [ INFO ]  Topology Graph constructed, used 13 ms.
+2015-12-22 09:56:28  [ qtp1081769770-50:506824 ] - [ INFO ]  Topology discovery finished, used 84178 ms.
+2015-12-22 09:56:28  [ qtp1081769770-46:506894 ] - [ INFO ]  From PB records found 155 links, used 83542 ms.
+2015-12-22 09:56:28  [ qtp1081769770-46:506922 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:28  [ qtp1081769770-46:506930 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:28  [ qtp1081769770-46:506968 ] - [ INFO ]  Topology Graph constructed, used 46 ms.
+2015-12-22 09:56:28  [ qtp1081769770-46:506969 ] - [ INFO ]  Topology discovery finished, used 85357 ms.
+2015-12-22 09:56:28  [ qtp1081769770-39:506992 ] - [ INFO ]  From PB records found 155 links, used 84461 ms.
+2015-12-22 09:56:28  [ qtp1081769770-39:507008 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:28  [ qtp1081769770-39:507022 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:28  [ qtp1081769770-39:507046 ] - [ INFO ]  Topology Graph constructed, used 38 ms.
+2015-12-22 09:56:28  [ qtp1081769770-39:507060 ] - [ INFO ]  Topology discovery finished, used 85666 ms.
+2015-12-22 09:56:29  [ qtp1081769770-45:507184 ] - [ INFO ]  From PB records found 155 links, used 83097 ms.
+2015-12-22 09:56:29  [ qtp1081769770-45:507200 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:29  [ qtp1081769770-45:507233 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:29  [ qtp1081769770-45:507297 ] - [ INFO ]  Topology Graph constructed, used 97 ms.
+2015-12-22 09:56:29  [ qtp1081769770-45:507297 ] - [ INFO ]  Topology discovery finished, used 84999 ms.
+2015-12-22 09:56:30  [ qtp1081769770-56:508898 ] - [ INFO ]  From PB records found 152 links, used 81179 ms.
+2015-12-22 09:56:30  [ qtp1081769770-56:508904 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:30  [ qtp1081769770-56:508907 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:30  [ qtp1081769770-56:508908 ] - [ INFO ]  Topology Graph constructed, used 4 ms.
+2015-12-22 09:56:30  [ qtp1081769770-56:508908 ] - [ INFO ]  Topology discovery finished, used 83909 ms.
+2015-12-22 09:56:31  [ qtp1081769770-48:509383 ] - [ INFO ]  From PB records found 153 links, used 83049 ms.
+2015-12-22 09:56:31  [ qtp1081769770-48:509404 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:31  [ qtp1081769770-48:509414 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:31  [ qtp1081769770-48:509415 ] - [ INFO ]  Topology Graph constructed, used 11 ms.
+2015-12-22 09:56:31  [ qtp1081769770-48:509448 ] - [ INFO ]  Topology discovery finished, used 85285 ms.
+2015-12-22 09:56:31  [ qtp1081769770-51:509583 ] - [ INFO ]  From PB records found 153 links, used 84743 ms.
+2015-12-22 09:56:31  [ qtp1081769770-51:509613 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:31  [ qtp1081769770-51:509622 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:31  [ qtp1081769770-51:509638 ] - [ INFO ]  Topology Graph constructed, used 25 ms.
+2015-12-22 09:56:31  [ qtp1081769770-51:509642 ] - [ INFO ]  Topology discovery finished, used 86571 ms.
+2015-12-22 09:56:31  [ qtp1081769770-53:509653 ] - [ INFO ]  From PB records found 153 links, used 83656 ms.
+2015-12-22 09:56:31  [ qtp1081769770-53:509654 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:31  [ qtp1081769770-53:509699 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:31  [ qtp1081769770-53:509700 ] - [ INFO ]  Topology Graph constructed, used 46 ms.
+2015-12-22 09:56:31  [ qtp1081769770-53:509700 ] - [ INFO ]  Topology discovery finished, used 85881 ms.
+2015-12-22 09:56:31  [ qtp1081769770-58:509941 ] - [ INFO ]  From PB records found 152 links, used 81703 ms.
+2015-12-22 09:56:31  [ qtp1081769770-58:509942 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:31  [ qtp1081769770-52:509966 ] - [ INFO ]  From PB records found 155 links, used 84906 ms.
+2015-12-22 09:56:31  [ qtp1081769770-52:509968 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:31  [ qtp1081769770-58:510000 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:31  [ qtp1081769770-58:510013 ] - [ INFO ]  Topology Graph constructed, used 71 ms.
+2015-12-22 09:56:31  [ qtp1081769770-58:510013 ] - [ INFO ]  Topology discovery finished, used 84483 ms.
+2015-12-22 09:56:31  [ qtp1081769770-52:510017 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:31  [ qtp1081769770-52:510017 ] - [ INFO ]  Topology Graph constructed, used 49 ms.
+2015-12-22 09:56:31  [ qtp1081769770-52:510018 ] - [ INFO ]  Topology discovery finished, used 86692 ms.
+2015-12-22 09:56:33  [ qtp1081769770-55:511688 ] - [ INFO ]  From PB records found 153 links, used 82346 ms.
+2015-12-22 09:56:33  [ qtp1081769770-55:511689 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:33  [ qtp1081769770-55:511692 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:33  [ qtp1081769770-55:511771 ] - [ INFO ]  Topology Graph constructed, used 82 ms.
+2015-12-22 09:56:33  [ qtp1081769770-55:511771 ] - [ INFO ]  Topology discovery finished, used 85068 ms.
+2015-12-22 09:56:33  [ qtp1081769770-57:511816 ] - [ INFO ]  From PB records found 153 links, used 84902 ms.
+2015-12-22 09:56:33  [ qtp1081769770-57:511816 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:33  [ qtp1081769770-57:511819 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:33  [ qtp1081769770-57:511820 ] - [ INFO ]  Topology Graph constructed, used 4 ms.
+2015-12-22 09:56:33  [ qtp1081769770-57:511820 ] - [ INFO ]  Topology discovery finished, used 87060 ms.
+2015-12-22 09:56:33  [ qtp1081769770-61:511875 ] - [ INFO ]  From PB records found 153 links, used 83806 ms.
+2015-12-22 09:56:33  [ qtp1081769770-61:511875 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:33  [ qtp1081769770-61:511878 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:33  [ qtp1081769770-61:511952 ] - [ INFO ]  Topology Graph constructed, used 77 ms.
+2015-12-22 09:56:33  [ qtp1081769770-61:511953 ] - [ INFO ]  Topology discovery finished, used 85900 ms.
+2015-12-22 09:56:33  [ qtp1081769770-54:512040 ] - [ INFO ]  From PB records found 152 links, used 85601 ms.
+2015-12-22 09:56:33  [ qtp1081769770-54:512044 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:33  [ qtp1081769770-54:512051 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:33  [ qtp1081769770-54:512080 ] - [ INFO ]  Topology Graph constructed, used 36 ms.
+2015-12-22 09:56:33  [ qtp1081769770-54:512084 ] - [ INFO ]  Topology discovery finished, used 87651 ms.
+2015-12-22 09:56:33  [ qtp1081769770-64:512110 ] - [ INFO ]  From PB records found 152 links, used 82397 ms.
+2015-12-22 09:56:33  [ qtp1081769770-64:512111 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:34  [ qtp1081769770-64:512156 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:34  [ qtp1081769770-64:512157 ] - [ INFO ]  Topology Graph constructed, used 46 ms.
+2015-12-22 09:56:34  [ qtp1081769770-64:512157 ] - [ INFO ]  Topology discovery finished, used 85018 ms.
+2015-12-22 09:56:34  [ qtp1081769770-66:512417 ] - [ INFO ]  From PB records found 154 links, used 81078 ms.
+2015-12-22 09:56:34  [ qtp1081769770-66:512417 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:34  [ qtp1081769770-66:512420 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:34  [ qtp1081769770-66:512456 ] - [ INFO ]  Topology Graph constructed, used 39 ms.
+2015-12-22 09:56:34  [ qtp1081769770-66:512457 ] - [ INFO ]  Topology discovery finished, used 84521 ms.
+2015-12-22 09:56:34  [ qtp1081769770-59:512481 ] - [ INFO ]  From PB records found 153 links, used 84977 ms.
+2015-12-22 09:56:34  [ qtp1081769770-59:512485 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:34  [ qtp1081769770-59:512494 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:34  [ qtp1081769770-59:512516 ] - [ INFO ]  Topology Graph constructed, used 31 ms.
+2015-12-22 09:56:34  [ qtp1081769770-59:512517 ] - [ INFO ]  Topology discovery finished, used 87269 ms.
+2015-12-22 09:56:34  [ qtp1081769770-49:512712 ] - [ INFO ]  From PB records found 155 links, used 88104 ms.
+2015-12-22 09:56:34  [ qtp1081769770-49:512716 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:34  [ qtp1081769770-49:512723 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:34  [ qtp1081769770-49:512746 ] - [ INFO ]  Topology Graph constructed, used 30 ms.
+2015-12-22 09:56:34  [ qtp1081769770-49:512752 ] - [ INFO ]  Topology discovery finished, used 89983 ms.
+2015-12-22 09:56:34  [ qtp1081769770-71:512866 ] - [ INFO ]  From PB records found 154 links, used 80453 ms.
+2015-12-22 09:56:34  [ qtp1081769770-71:512866 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:34  [ qtp1081769770-71:512882 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:34  [ qtp1081769770-71:512883 ] - [ INFO ]  Topology Graph constructed, used 17 ms.
+2015-12-22 09:56:34  [ qtp1081769770-71:512883 ] - [ INFO ]  Topology discovery finished, used 83883 ms.
+2015-12-22 09:56:34  [ qtp1081769770-67:512911 ] - [ INFO ]  From PB records found 152 links, used 82315 ms.
+2015-12-22 09:56:34  [ qtp1081769770-67:512920 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:34  [ qtp1081769770-67:512923 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:34  [ qtp1081769770-67:512965 ] - [ INFO ]  Topology Graph constructed, used 45 ms.
+2015-12-22 09:56:34  [ qtp1081769770-67:512966 ] - [ INFO ]  Topology discovery finished, used 84739 ms.
+2015-12-22 09:56:34  [ qtp1081769770-62:513089 ] - [ INFO ]  From PB records found 153 links, used 83791 ms.
+2015-12-22 09:56:34  [ qtp1081769770-62:513116 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:35  [ qtp1081769770-62:513141 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:35  [ qtp1081769770-62:513148 ] - [ INFO ]  Topology Graph constructed, used 32 ms.
+2015-12-22 09:56:35  [ qtp1081769770-62:513152 ] - [ INFO ]  Topology discovery finished, used 86727 ms.
+2015-12-22 09:56:35  [ qtp1081769770-77:513677 ] - [ INFO ]  From PB records found 154 links, used 79293 ms.
+2015-12-22 09:56:35  [ qtp1081769770-77:513678 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:35  [ qtp1081769770-77:513680 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:35  [ qtp1081769770-77:513681 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:35  [ qtp1081769770-77:513681 ] - [ INFO ]  Topology discovery finished, used 82710 ms.
+2015-12-22 09:56:35  [ qtp1081769770-65:513705 ] - [ INFO ]  From PB records found 152 links, used 83338 ms.
+2015-12-22 09:56:35  [ qtp1081769770-65:513714 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:35  [ qtp1081769770-65:513717 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:35  [ qtp1081769770-65:513740 ] - [ INFO ]  Topology Graph constructed, used 26 ms.
+2015-12-22 09:56:35  [ qtp1081769770-65:513741 ] - [ INFO ]  Topology discovery finished, used 86417 ms.
+2015-12-22 09:56:35  [ qtp1081769770-73:513893 ] - [ INFO ]  From PB records found 154 links, used 80406 ms.
+2015-12-22 09:56:35  [ qtp1081769770-73:513896 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:35  [ qtp1081769770-73:513899 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:35  [ qtp1081769770-73:513928 ] - [ INFO ]  Topology Graph constructed, used 32 ms.
+2015-12-22 09:56:35  [ qtp1081769770-73:513929 ] - [ INFO ]  Topology discovery finished, used 83882 ms.
+2015-12-22 09:56:36  [ qtp1081769770-60:514221 ] - [ INFO ]  From PB records found 153 links, used 85527 ms.
+2015-12-22 09:56:36  [ qtp1081769770-60:514228 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:36  [ qtp1081769770-60:514234 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:36  [ qtp1081769770-60:514248 ] - [ INFO ]  Topology Graph constructed, used 20 ms.
+2015-12-22 09:56:36  [ qtp1081769770-60:514252 ] - [ INFO ]  Topology discovery finished, used 88144 ms.
+2015-12-22 09:56:36  [ qtp1081769770-68:514446 ] - [ INFO ]  From PB records found 154 links, used 82308 ms.
+2015-12-22 09:56:36  [ qtp1081769770-68:514468 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:36  [ qtp1081769770-69:514448 ] - [ INFO ]  From PB records found 154 links, used 82439 ms.
+2015-12-22 09:56:36  [ qtp1081769770-69:514470 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:36  [ qtp1081769770-68:514471 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:36  [ qtp1081769770-68:514472 ] - [ INFO ]  Topology Graph constructed, used 4 ms.
+2015-12-22 09:56:36  [ qtp1081769770-68:514472 ] - [ INFO ]  Topology discovery finished, used 85853 ms.
+2015-12-22 09:56:36  [ qtp1081769770-69:514473 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:36  [ qtp1081769770-69:514490 ] - [ INFO ]  Topology Graph constructed, used 20 ms.
+2015-12-22 09:56:36  [ qtp1081769770-69:514497 ] - [ INFO ]  Topology discovery finished, used 85060 ms.
+2015-12-22 09:56:36  [ qtp1081769770-79:514619 ] - [ INFO ]  From PB records found 154 links, used 78809 ms.
+2015-12-22 09:56:36  [ qtp1081769770-79:514660 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:36  [ qtp1081769770-79:514663 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:36  [ qtp1081769770-79:514663 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:36  [ qtp1081769770-79:514664 ] - [ INFO ]  Topology discovery finished, used 82136 ms.
+2015-12-22 09:56:36  [ qtp1081769770-76:514786 ] - [ INFO ]  From PB records found 154 links, used 81078 ms.
+2015-12-22 09:56:36  [ qtp1081769770-76:514792 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:36  [ qtp1081769770-76:514810 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:36  [ qtp1081769770-76:514811 ] - [ INFO ]  Topology Graph constructed, used 19 ms.
+2015-12-22 09:56:36  [ qtp1081769770-76:514812 ] - [ INFO ]  Topology discovery finished, used 84148 ms.
+2015-12-22 09:56:36  [ qtp1081769770-78:515069 ] - [ INFO ]  From PB records found 154 links, used 79545 ms.
+2015-12-22 09:56:36  [ qtp1081769770-78:515069 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:36  [ qtp1081769770-78:515072 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:36  [ qtp1081769770-78:515113 ] - [ INFO ]  Topology Graph constructed, used 44 ms.
+2015-12-22 09:56:36  [ qtp1081769770-78:515113 ] - [ INFO ]  Topology discovery finished, used 82650 ms.
+2015-12-22 09:56:37  [ qtp1081769770-82:515201 ] - [ INFO ]  From PB records found 154 links, used 79193 ms.
+2015-12-22 09:56:37  [ qtp1081769770-82:515201 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-82:515215 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-82:515232 ] - [ INFO ]  Topology Graph constructed, used 31 ms.
+2015-12-22 09:56:37  [ qtp1081769770-82:515240 ] - [ INFO ]  Topology discovery finished, used 82379 ms.
+2015-12-22 09:56:37  [ qtp1081769770-72:515288 ] - [ INFO ]  From PB records found 154 links, used 81814 ms.
+2015-12-22 09:56:37  [ qtp1081769770-72:515297 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-72:515299 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-72:515306 ] - [ INFO ]  Topology Graph constructed, used 9 ms.
+2015-12-22 09:56:37  [ qtp1081769770-72:515312 ] - [ INFO ]  Topology discovery finished, used 85005 ms.
+2015-12-22 09:56:37  [ qtp1081769770-70:515346 ] - [ INFO ]  From PB records found 154 links, used 83532 ms.
+2015-12-22 09:56:37  [ qtp1081769770-70:515347 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-83:515347 ] - [ INFO ]  From PB records found 152 links, used 77951 ms.
+2015-12-22 09:56:37  [ qtp1081769770-83:515348 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-83:515350 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-83:515351 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:37  [ qtp1081769770-83:515351 ] - [ INFO ]  Topology discovery finished, used 81616 ms.
+2015-12-22 09:56:37  [ qtp1081769770-70:515365 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-70:515366 ] - [ INFO ]  Topology Graph constructed, used 19 ms.
+2015-12-22 09:56:37  [ qtp1081769770-70:515366 ] - [ INFO ]  Topology discovery finished, used 86275 ms.
+2015-12-22 09:56:37  [ qtp1081769770-80:515533 ] - [ INFO ]  From PB records found 154 links, used 78770 ms.
+2015-12-22 09:56:37  [ qtp1081769770-80:515533 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-80:515536 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-80:515545 ] - [ INFO ]  Topology Graph constructed, used 12 ms.
+2015-12-22 09:56:37  [ qtp1081769770-80:515546 ] - [ INFO ]  Topology discovery finished, used 82772 ms.
+2015-12-22 09:56:37  [ qtp1081769770-63:515543 ] - [ INFO ]  From PB records found 154 links, used 84492 ms.
+2015-12-22 09:56:37  [ qtp1081769770-63:515556 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-63:515567 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-63:515576 ] - [ INFO ]  Topology Graph constructed, used 20 ms.
+2015-12-22 09:56:37  [ qtp1081769770-63:515577 ] - [ INFO ]  Topology discovery finished, used 87936 ms.
+2015-12-22 09:56:37  [ qtp1081769770-94:515716 ] - [ INFO ]  From PB records found 152 links, used 74178 ms.
+2015-12-22 09:56:37  [ qtp1081769770-94:515741 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-94:515743 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-94:515760 ] - [ INFO ]  Topology Graph constructed, used 19 ms.
+2015-12-22 09:56:37  [ qtp1081769770-94:515761 ] - [ INFO ]  Topology discovery finished, used 79188 ms.
+2015-12-22 09:56:37  [ qtp1081769770-74:515801 ] - [ INFO ]  From PB records found 154 links, used 82219 ms.
+2015-12-22 09:56:37  [ qtp1081769770-74:515808 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-74:515818 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-74:515824 ] - [ INFO ]  Topology Graph constructed, used 16 ms.
+2015-12-22 09:56:37  [ qtp1081769770-74:515825 ] - [ INFO ]  Topology discovery finished, used 85831 ms.
+2015-12-22 09:56:37  [ qtp1081769770-75:515873 ] - [ INFO ]  From PB records found 154 links, used 81745 ms.
+2015-12-22 09:56:37  [ qtp1081769770-75:515873 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-75:515882 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-75:515882 ] - [ INFO ]  Topology Graph constructed, used 9 ms.
+2015-12-22 09:56:37  [ qtp1081769770-75:515883 ] - [ INFO ]  Topology discovery finished, used 84584 ms.
+2015-12-22 09:56:37  [ qtp1081769770-93:516056 ] - [ INFO ]  From PB records found 152 links, used 75998 ms.
+2015-12-22 09:56:37  [ qtp1081769770-93:516076 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:37  [ qtp1081769770-93:516079 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:37  [ qtp1081769770-93:516080 ] - [ INFO ]  Topology Graph constructed, used 4 ms.
+2015-12-22 09:56:37  [ qtp1081769770-93:516080 ] - [ INFO ]  Topology discovery finished, used 80123 ms.
+2015-12-22 09:56:38  [ qtp1081769770-81:516141 ] - [ INFO ]  From PB records found 154 links, used 79158 ms.
+2015-12-22 09:56:38  [ qtp1081769770-81:516142 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-81:516153 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-81:516153 ] - [ INFO ]  Topology Graph constructed, used 11 ms.
+2015-12-22 09:56:38  [ qtp1081769770-81:516154 ] - [ INFO ]  Topology discovery finished, used 83041 ms.
+2015-12-22 09:56:38  [ qtp1081769770-86:516156 ] - [ INFO ]  From PB records found 153 links, used 78497 ms.
+2015-12-22 09:56:38  [ qtp1081769770-86:516171 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-86:516174 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-86:516174 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:38  [ qtp1081769770-86:516175 ] - [ INFO ]  Topology discovery finished, used 81777 ms.
+2015-12-22 09:56:38  [ qtp1081769770-84:516311 ] - [ INFO ]  From PB records found 153 links, used 77937 ms.
+2015-12-22 09:56:38  [ qtp1081769770-84:516317 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-84:516320 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-84:516330 ] - [ INFO ]  Topology Graph constructed, used 13 ms.
+2015-12-22 09:56:38  [ qtp1081769770-84:516331 ] - [ INFO ]  Topology discovery finished, used 82181 ms.
+2015-12-22 09:56:38  [ qtp1081769770-85:516339 ] - [ INFO ]  From PB records found 152 links, used 78785 ms.
+2015-12-22 09:56:38  [ qtp1081769770-85:516339 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-85:516345 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-85:516346 ] - [ INFO ]  Topology Graph constructed, used 7 ms.
+2015-12-22 09:56:38  [ qtp1081769770-85:516346 ] - [ INFO ]  Topology discovery finished, used 82424 ms.
+2015-12-22 09:56:38  [ qtp1081769770-88:516371 ] - [ INFO ]  From PB records found 153 links, used 78118 ms.
+2015-12-22 09:56:38  [ qtp1081769770-88:516375 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-88:516378 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-88:516391 ] - [ INFO ]  Topology Graph constructed, used 16 ms.
+2015-12-22 09:56:38  [ qtp1081769770-88:516392 ] - [ INFO ]  Topology discovery finished, used 81717 ms.
+2015-12-22 09:56:38  [ qtp1081769770-89:516422 ] - [ INFO ]  From PB records found 154 links, used 77477 ms.
+2015-12-22 09:56:38  [ qtp1081769770-89:516422 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-89:516425 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-89:516427 ] - [ INFO ]  Topology Graph constructed, used 5 ms.
+2015-12-22 09:56:38  [ qtp1081769770-89:516428 ] - [ INFO ]  Topology discovery finished, used 81459 ms.
+2015-12-22 09:56:38  [ qtp1081769770-92:516485 ] - [ INFO ]  From PB records found 152 links, used 76457 ms.
+2015-12-22 09:56:38  [ qtp1081769770-92:516486 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-92:516488 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-92:516489 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:38  [ qtp1081769770-92:516489 ] - [ INFO ]  Topology discovery finished, used 80285 ms.
+2015-12-22 09:56:38  [ qtp1081769770-87:516544 ] - [ INFO ]  From PB records found 154 links, used 77620 ms.
+2015-12-22 09:56:38  [ qtp1081769770-87:516544 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-87:516547 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-87:516547 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:38  [ qtp1081769770-87:516547 ] - [ INFO ]  Topology discovery finished, used 81285 ms.
+2015-12-22 09:56:38  [ qtp1081769770-90:516597 ] - [ INFO ]  From PB records found 154 links, used 76767 ms.
+2015-12-22 09:56:38  [ qtp1081769770-90:516598 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:56:38  [ qtp1081769770-90:516600 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:56:38  [ qtp1081769770-90:516601 ] - [ INFO ]  Topology Graph constructed, used 3 ms.
+2015-12-22 09:56:38  [ qtp1081769770-90:516601 ] - [ INFO ]  Topology discovery finished, used 81030 ms.
+2015-12-22 09:58:11  [ qtp1081769770-52:609567 ] - [ INFO ]  Start to topology discovery.
+2015-12-22 09:58:11  [ qtp1081769770-52:609568 ] - [ INFO ]  Start to query Logmet.
+2015-12-22 09:58:11  [ qtp1081769770-52:609569 ] - [ INFO ]  Query Logmet for PB records whose timestamp is greater than 1450778231434.
+2015-12-22 09:58:11  [ qtp1081769770-52:610132 ] - [ INFO ]  Retrieved PB records: 172, used 564 ms.
+2015-12-22 09:58:11  [ qtp1081769770-52:610133 ] - [ INFO ]  Start to process PB records.
+2015-12-22 09:58:12  [ qtp1081769770-52:610683 ] - [ INFO ]  From PB records found 54 links, used 550 ms.
+2015-12-22 09:58:12  [ qtp1081769770-52:610684 ] - [ INFO ]  Start to construct topology graph.
+2015-12-22 09:58:12  [ qtp1081769770-52:610685 ] - [ INFO ]  Constructed graph with 12 vertice and 11 edges
+2015-12-22 09:58:12  [ qtp1081769770-52:610685 ] - [ INFO ]  Topology Graph constructed, used 1 ms.
+2015-12-22 09:58:12  [ qtp1081769770-52:610685 ] - [ INFO ]  Topology discovery finished, used 1118 ms.
